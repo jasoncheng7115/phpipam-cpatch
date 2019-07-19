@@ -9021,7 +9021,7 @@ msgid "Physical Circuits"
 msgstr "實體電路"
 
 msgid "Logical Circuits"
-msgstr "邏輯電話"
+msgstr "邏輯電路"
 
 msgid "Circuit providers"
 msgstr "電路提供者"
