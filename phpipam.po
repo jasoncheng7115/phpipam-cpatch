@@ -1,10 +1,10 @@
 # PHPIPAM translations file - template
 # Copyright (C) phpipam 2013
 # This file is distributed under the same license as the phpipam package.
-# Alang Hsu <alang.hsu@gmail.com>
+# Jason Cheng <sanyu3u@gmail.com>
 # "Project-Id-Version: 1.0\n"
 # "Report-Msgid-Bugs-To: Jason Cheng <sanyu3u@gmail.com>\n"
-# "Last-Translator: 2019-07-19\n"
+# "Last-Translator: 2019-07-20\n"
 # "Language: zh_TW\n"
 # "MIME-Version: 1.0\n"
 # "Content-Type: text/plain; charset=UTF-8\n"
@@ -150,8 +150,7 @@ msgid "Name is mandatory"
 msgstr "名稱不能是空白"
 
 #: functions/functions-admin.php:1138 functions/functions-admin.php:1158
-#: site/tools/searchResults.php:114
-#: site/ipaddr/ipAddressPrintTableOrphaned.php:89
+#: site/tools/searchResults.php:114 site/ipaddr/ipAddressPrintTableOrphaned.php:89
 #: site/ipaddr/mailNotifyIP.php:62 site/ipaddr/exportSelectFields.php:74
 #: site/admin/CSVimportShowFile.php:70 site/admin/searchReplaceResult.php:20
 #: site/admin/searchReplaceResult.php:21 site/admin/replaceFields.php:31
@@ -263,7 +262,7 @@ msgstr "DHCP"
 
 #: functions/functions-network.php:177
 msgid "VLAN must be numeric value!"
-msgstr "VLAN 必須設定為數字"
+msgstr "VLAN 必須設定為數字！"
 
 #: functions/functions-network.php:178
 msgid "Vlan number can be max 4094"
@@ -276,7 +275,7 @@ msgstr "子網路重疊"
 
 #: functions/functions-network.php:1199
 msgid "Select Master subnet"
-msgstr "選擇主子網路"
+msgstr "選擇主要子網路"
 
 #: functions/functions-network.php:1200
 msgid "Root subnet"
@@ -300,11 +299,11 @@ msgstr "無法新增廣播位址為 IP 位址！"
 
 #: functions/functions-network.php:1843 functions/functions-network.php:1863
 msgid "Invalid CIDR format!"
-msgstr "無效的 CIDR 格式"
+msgstr "無效的 CIDR 格式！"
 
 #: functions/functions-network.php:1857
 msgid "Invalid IP address!"
-msgstr "無效的 IP 位址"
+msgstr "無效的 IP 位址！"
 
 #: functions/functions-network.php:1859 functions/functions-network.php:1883
 msgid "IP address cannot be subnet! (Consider using"
@@ -316,7 +315,7 @@ msgstr "無效的子網路遮罩"
 
 #: functions/functions-network.php:1872
 msgid "Invalid IPv6 address!"
-msgstr "無效的 IPv6 位址"
+msgstr "無效的 IPv6 位址！"
 
 #: functions/checkPhpBuild.php:57
 msgid "The following required PHP extensions are missing"
@@ -356,16 +355,15 @@ msgstr "使用者名稱"
 
 #: functions/functions-mail.php:172 functions/functions-mail.php:177
 #: functions/functions-mail.php:201 functions/functions-mail.php:206
-#: site/tools/userMenu.php:51 site/tools/userMenu.php:55
-#: site/tools/userMenu.php:60 site/admin/usersEditPrint.php:114
-#: site/admin/usersEditPrint.php:121 site/login/loginForm.php:19
-#: site/login/loginForm.php:21
+#: site/tools/userMenu.php:51 site/tools/userMenu.php:55 site/tools/userMenu.php:60
+#: site/admin/usersEditPrint.php:114 site/admin/usersEditPrint.php:121
+#: site/login/loginForm.php:19 site/login/loginForm.php:21
 msgid "Password"
 msgstr "密碼"
 
 #: functions/functions-mail.php:176
 msgid "your domain username"
-msgstr "網域的使用者名稱"
+msgstr "您的網域使用者名稱"
 
 #: functions/functions-mail.php:177
 msgid "your domain password"
@@ -407,12 +405,11 @@ msgstr "區段"
 #: functions/functions-mail.php:283 functions/functions-mail.php:306
 #: functions/functions-mail.php:384 functions/functions-mail.php:412
 #: site/tools/vrf.php:44 site/tools/devices.php:68 site/tools/subnets.php:45
-#: site/tools/searchResults.php:259
-#: site/ipaddr/ipAddressPrintTableSlaves.php:34 site/admin/manageSubnet.php:76
-#: site/admin/manageSubnetEdit.php:76 site/admin/manageSubnetEditResult.php:169
-#: site/admin/manageRequests.php:24 site/admin/ripeImportTelnet.php:74
-#: site/admin/manageSubnetsplit.php:64 site/admin/manageSubnetresize.php:35
-#: site/admin/manageSubnettruncate.php:37
+#: site/tools/searchResults.php:259 site/ipaddr/ipAddressPrintTableSlaves.php:34
+#: site/admin/manageSubnet.php:76 site/admin/manageSubnetEdit.php:76
+#: site/admin/manageSubnetEditResult.php:169 site/admin/manageRequests.php:24
+#: site/admin/ripeImportTelnet.php:74 site/admin/manageSubnetsplit.php:64
+#: site/admin/manageSubnetresize.php:35 site/admin/manageSubnettruncate.php:37
 msgid "Subnet"
 msgstr "子網路"
 
@@ -422,33 +419,31 @@ msgstr "子網路"
 #: site/tools/devices.php:69 site/tools/requestIPform.php:29
 #: site/tools/subnets.php:46 site/tools/searchResults.php:109
 #: site/tools/searchResults.php:261 site/tools/searchResults.php:339
-#: site/ipaddr/ipAddressPrintTableOrphaned.php:85
-#: site/ipaddr/mailNotifyIP.php:46 site/ipaddr/moveIpAddress.php:61
-#: site/ipaddr/modifyIpAddress.php:131 site/ipaddr/modifyIpAddress.php:135
-#: site/ipaddr/exportSelectFields.php:49 site/admin/manageRequestEdit.php:74
-#: site/admin/manageSubnet.php:77 site/admin/manageSubnetEdit.php:93
-#: site/admin/CSVimportShowFile.php:66 site/admin/manageVRF.php:36
-#: site/admin/manageDevicesEdit.php:91 site/admin/manageDevicesEdit.php:93
-#: site/admin/manageVRFEdit.php:51 site/admin/manageVRFEdit.php:57
-#: site/admin/manageVLANEdit.php:58 site/admin/manageVLANEdit.php:60
-#: site/admin/manageRequests.php:26 site/admin/replaceFields.php:27
-#: site/admin/ripeImportTelnet.php:90 site/admin/manageSection.php:28
-#: site/admin/manageSectionEdit.php:51 site/admin/manageVLANs.php:36
-#: site/admin/manageDevices.php:37 site/admin/groupEditPrint.php:57
-#: site/login/requestIPform.php:82
+#: site/ipaddr/ipAddressPrintTableOrphaned.php:85 site/ipaddr/mailNotifyIP.php:46
+#: site/ipaddr/moveIpAddress.php:61 site/ipaddr/modifyIpAddress.php:131
+#: site/ipaddr/modifyIpAddress.php:135 site/ipaddr/exportSelectFields.php:49
+#: site/admin/manageRequestEdit.php:74 site/admin/manageSubnet.php:77
+#: site/admin/manageSubnetEdit.php:93 site/admin/CSVimportShowFile.php:66
+#: site/admin/manageVRF.php:36 site/admin/manageDevicesEdit.php:91
+#: site/admin/manageDevicesEdit.php:93 site/admin/manageVRFEdit.php:51
+#: site/admin/manageVRFEdit.php:57 site/admin/manageVLANEdit.php:58
+#: site/admin/manageVLANEdit.php:60 site/admin/manageRequests.php:26
+#: site/admin/replaceFields.php:27 site/admin/ripeImportTelnet.php:90
+#: site/admin/manageSection.php:28 site/admin/manageSectionEdit.php:51
+#: site/admin/manageVLANs.php:36 site/admin/manageDevices.php:37
+#: site/admin/groupEditPrint.php:57 site/login/requestIPform.php:82
 msgid "Description"
 msgstr "描述"
 
 #: functions/functions-mail.php:285 functions/functions-mail.php:308
 #: functions/functions-mail.php:389 functions/functions-mail.php:417
 #: site/tools/devices.php:70 site/tools/searchResults.php:110
-#: site/ipaddr/ipAddressPrintTableOrphaned.php:81
-#: site/ipaddr/mailNotifyIP.php:50 site/ipaddr/modifyIpAddress.php:146
-#: site/ipaddr/exportSelectFields.php:54 site/admin/manageRequestEdit.php:81
-#: site/admin/CSVimportShowFile.php:67 site/admin/manageDevicesEdit.php:35
-#: site/admin/manageDevicesEdit.php:37 site/admin/manageRequests.php:25
-#: site/admin/replaceFields.php:28 site/admin/manageDevices.php:31
-#: site/login/requestIPform.php:89
+#: site/ipaddr/ipAddressPrintTableOrphaned.php:81 site/ipaddr/mailNotifyIP.php:50
+#: site/ipaddr/modifyIpAddress.php:146 site/ipaddr/exportSelectFields.php:54
+#: site/admin/manageRequestEdit.php:81 site/admin/CSVimportShowFile.php:67
+#: site/admin/manageDevicesEdit.php:35 site/admin/manageDevicesEdit.php:37
+#: site/admin/manageRequests.php:25 site/admin/replaceFields.php:28
+#: site/admin/manageDevices.php:31 site/login/requestIPform.php:89
 msgid "Hostname"
 msgstr "主機名稱"
 
@@ -587,12 +582,11 @@ msgstr "主要子網路"
 
 #: site/tools/searchResultsExport.php:274 site/tools/vrf.php:42
 #: site/tools/subnets.php:47 site/tools/searchResults.php:107
-#: site/tools/searchResults.php:263
-#: site/ipaddr/ipAddressPrintTableSlaves.php:32 site/ipaddr/mailNotifyIP.php:58
-#: site/ipaddr/subnetDetailsSlaves.php:85 site/ipaddr/subnetDetails.php:96
-#: site/admin/manageSubnet.php:78 site/admin/manageSubnetEdit.php:125
-#: site/admin/manageVLANEdit.php:32 site/admin/ripeImportTelnet.php:95
-#: site/admin/manageVLANEditResult.php:47
+#: site/tools/searchResults.php:263 site/ipaddr/ipAddressPrintTableSlaves.php:32
+#: site/ipaddr/mailNotifyIP.php:58 site/ipaddr/subnetDetailsSlaves.php:85
+#: site/ipaddr/subnetDetails.php:96 site/admin/manageSubnet.php:78
+#: site/admin/manageSubnetEdit.php:125 site/admin/manageVLANEdit.php:32
+#: site/admin/ripeImportTelnet.php:95 site/admin/manageVLANEditResult.php:47
 #: site/admin/manageVLANEditResult.php:48
 msgid "VLAN"
 msgstr "VLAN"
@@ -623,8 +617,8 @@ msgstr "IPv4v6 計算機"
 
 #: site/tools/ipCalc.php:15 site/tools/devices.php:66
 #: site/tools/requestIPform.php:12 site/tools/searchResults.php:106
-#: site/ipaddr/ipAddressPrintTableOrphaned.php:79
-#: site/ipaddr/mailNotifyIP.php:43 site/ipaddr/modifyIpAddressCheck.php:134
+#: site/ipaddr/ipAddressPrintTableOrphaned.php:79 site/ipaddr/mailNotifyIP.php:43
+#: site/ipaddr/modifyIpAddressCheck.php:134
 #: site/ipaddr/modifyIpAddressCheck.php:187
 #: site/ipaddr/modifyIpAddressCheck.php:196 site/ipaddr/moveIpAddress.php:47
 #: site/ipaddr/modifyIpAddress.php:99 site/ipaddr/modifyIpAddress.php:111
@@ -663,11 +657,10 @@ msgstr "沒有 VRFs 設定"
 #: site/tools/vrf.php:45 site/tools/subnets.php:48
 #: site/admin/manageSubnetEdit.php:162
 msgid "Master Subnet"
-msgstr "主子網路"
+msgstr "主要子網路"
 
 #: site/tools/vrf.php:46 site/tools/vlan.php:30 site/tools/subnets.php:49
-#: site/ipaddr/ipAddressPrintTableSlaves.php:35
-#: site/ipaddr/subnetDetails.php:89
+#: site/ipaddr/ipAddressPrintTableSlaves.php:35 site/ipaddr/subnetDetails.php:89
 msgid "Used"
 msgstr "已使用"
 
@@ -676,15 +669,14 @@ msgstr "已使用"
 msgid "Free"
 msgstr "可用"
 
-#: site/tools/vrf.php:48 site/tools/subnets.php:51
-#: site/tools/searchResults.php:264
+#: site/tools/vrf.php:48 site/tools/subnets.php:51 site/tools/searchResults.php:264
 #: site/ipaddr/ipAddressPrintTableSlaves.php:37 site/admin/manageSubnet.php:82
 msgid "Requests"
 msgstr "申請"
 
 #: site/tools/vrf.php:86
 msgid "Master subnet does not exist"
-msgstr "主子網路不存在"
+msgstr "主要子網路不存在"
 
 #: site/tools/vrf.php:104 site/tools/subnets.php:104
 #: site/ipaddr/subnetDetails.php:126
@@ -708,11 +700,10 @@ msgid "click to show/hide belonging IP addresses"
 msgstr "按下顯示/隱藏所有的 IP 位址"
 
 #: site/tools/devices.php:67 site/tools/searchResults.php:116
-#: site/ipaddr/ipAddressPrintTableOrphaned.php:91
-#: site/ipaddr/mailNotifyIP.php:66 site/ipaddr/modifyIpAddress.php:213
-#: site/ipaddr/modifyIpAddress.php:215 site/ipaddr/exportSelectFields.php:81
-#: site/admin/manageRequestEdit.php:131 site/admin/CSVimportShowFile.php:71
-#: site/admin/replaceFields.php:32
+#: site/ipaddr/ipAddressPrintTableOrphaned.php:91 site/ipaddr/mailNotifyIP.php:66
+#: site/ipaddr/modifyIpAddress.php:213 site/ipaddr/modifyIpAddress.php:215
+#: site/ipaddr/exportSelectFields.php:81 site/admin/manageRequestEdit.php:131
+#: site/admin/CSVimportShowFile.php:71 site/admin/replaceFields.php:32
 msgid "Port"
 msgstr "埠號"
 
@@ -865,8 +856,7 @@ msgstr "IPv6 搜尋提示"
 
 #: site/tools/searchTips.php:37
 msgid ""
-"You can search through ranges by specifying whole subnet (e.g. "
-"2002:8a10::/32)"
+"You can search through ranges by specifying whole subnet (e.g. 2002:8a10::/32)"
 msgstr "您可以指定範圍搜尋整個子網路 (例如2002:8a10：：/ 32) "
 
 #: site/tools/searchTips.php:44
@@ -875,8 +865,8 @@ msgstr "主機名稱搜尋提示"
 
 #: site/tools/searchTips.php:46
 msgid ""
-"You can get all IP addresses some host uses and all ports it is connected to "
-"by entering hostname in search field"
+"You can get all IP addresses some host uses and all ports it is connected to by "
+"entering hostname in search field"
 msgstr "在搜尋欄輸入主機名稱，可以顯示主機使用的所有 IP 位址和連接的所有埠號"
 
 #: site/tools/searchTips.php:53
@@ -885,8 +875,8 @@ msgstr "裝置搜尋提示"
 
 #: site/tools/searchTips.php:55
 msgid ""
-"You can get all used / available ports and connected IP's / hostnames in "
-"some device by entering device name in search field"
+"You can get all used / available ports and connected IP's / hostnames in some "
+"device by entering device name in search field"
 msgstr "在搜尋欄輸入裝置名稱，可以顯示裝置使用的埠號和連接的 IP /主機名稱"
 
 #: site/tools/searchTips.php:62
@@ -898,8 +888,8 @@ msgid ""
 "You can search by MAC address list entering MAC in 00:1cd:d4:78:ec:46 or "
 "001dd478ec46 format, or search multiple with 00:1c:c4:"
 msgstr ""
-"您可以使用類似 00:1cd:d4:78:ec:46 或 001dd478ec46 格式輸入 MAC 位址進行搜尋，"
-"或使用 00:1c:c4: 搜尋多個位址"
+"您可以使用類似 00:1cd:d4:78:ec:46 或 001dd478ec46 格式輸入 MAC 位址進行搜尋，或使"
+"用 00:1c:c4: 搜尋多個位址"
 
 #: site/tools/searchTips.php:71
 msgid "Custom field search tips"
@@ -938,8 +928,8 @@ msgstr "IP 位址計算機"
 msgid "Instructions"
 msgstr "操作指南"
 
-#: site/tools/toolsMenu.php:31 site/admin/ripeImport.php:19
-#: site/userMenu.php:22 site/sections.php:104
+#: site/tools/toolsMenu.php:31 site/admin/ripeImport.php:19 site/userMenu.php:22
+#: site/sections.php:104
 msgid "Search"
 msgstr "搜尋"
 
@@ -1074,18 +1064,17 @@ msgstr "所有 IP 位址屬於所有下一級子網路"
 msgid "Subnet does not exist"
 msgstr "子網路不存在"
 
-#: site/ipaddr/ipAddressPrintTable.php:106
-#: site/ipaddr/ipAddressPrintTable.php:126
+#: site/ipaddr/ipAddressPrintTable.php:106 site/ipaddr/ipAddressPrintTable.php:126
 msgid "Page"
 msgstr "頁"
 
-#: site/ipaddr/ipAddressPrintTable.php:113
-#: site/ipaddr/ipAddressPrintTable.php:346 site/admin/logs.php:27
+#: site/ipaddr/ipAddressPrintTable.php:113 site/ipaddr/ipAddressPrintTable.php:346
+#: site/admin/logs.php:27
 msgid "Previous page"
 msgstr "前一頁"
 
-#: site/ipaddr/ipAddressPrintTable.php:114
-#: site/ipaddr/ipAddressPrintTable.php:347 site/admin/logs.php:28
+#: site/ipaddr/ipAddressPrintTable.php:114 site/ipaddr/ipAddressPrintTable.php:347
+#: site/admin/logs.php:28
 msgid "Next page"
 msgstr "後一頁"
 
@@ -1129,8 +1118,7 @@ msgstr "離線"
 msgid "MAC"
 msgstr "MAC"
 
-#: site/ipaddr/ipAddressPrintTable.php:300
-#: site/ipaddr/ipAddressPrintTable.php:307
+#: site/ipaddr/ipAddressPrintTable.php:300 site/ipaddr/ipAddressPrintTable.php:307
 msgid "Search same hostnames in db"
 msgstr "在資料庫中搜尋相同的主機名稱"
 
@@ -1139,8 +1127,7 @@ msgid "Orphaned IP addresses for subnet"
 msgstr "子網路中的孤立 IP 位址"
 
 #: site/ipaddr/ipAddressPrintTableOrphaned.php:69
-msgid ""
-"This happens if subnet had IP addresses<br>when new nested subnet was added"
+msgid "This happens if subnet had IP addresses<br>when new nested subnet was added"
 msgstr "當增加新的從屬子網路時，如果子網路具有 IP 位址<br>，則會發生這種情況"
 
 #: site/ipaddr/ipAddressPrintTableOrphaned.php:171
@@ -1203,8 +1190,7 @@ msgstr "範圍"
 msgid "updated successfully"
 msgstr "更新成功"
 
-#: site/ipaddr/modifyIpAddressCheck.php:150
-#: site/admin/manageVRFEditResult.php:27
+#: site/ipaddr/modifyIpAddressCheck.php:150 site/admin/manageVRFEditResult.php:27
 #: site/admin/manageDevicesEditResult.php:65
 #: site/admin/manageDevicesEditResult.php:69
 #: site/admin/manageSubnetEditResult.php:169 site/admin/usersEditResult.php:97
@@ -1237,9 +1223,8 @@ msgstr "插入 IP 位址錯誤"
 msgid "You do not have permission to access this network"
 msgstr "您沒有存取此網路的權限"
 
-#: site/ipaddr/subnetDetailsSlaves.php:58
-#: site/ipaddr/subnetDetailsSlaves.php:63 site/ipaddr/subnetDetails.php:59
-#: site/ipaddr/subnetDetails.php:64
+#: site/ipaddr/subnetDetailsSlaves.php:58 site/ipaddr/subnetDetailsSlaves.php:63
+#: site/ipaddr/subnetDetails.php:59 site/ipaddr/subnetDetails.php:64
 msgid "Subnet details"
 msgstr "子網路細節"
 
@@ -1259,9 +1244,8 @@ msgstr "動作"
 msgid "You do not have permissions to edit subnet"
 msgstr "您沒有編輯子網路的權限"
 
-#: site/ipaddr/subnetDetailsSlaves.php:137
-#: site/ipaddr/subnetDetailsSlaves.php:149 site/ipaddr/subnetDetails.php:159
-#: site/ipaddr/subnetDetails.php:177
+#: site/ipaddr/subnetDetailsSlaves.php:137 site/ipaddr/subnetDetailsSlaves.php:149
+#: site/ipaddr/subnetDetails.php:159 site/ipaddr/subnetDetails.php:177
 msgid "Add new nested subnet"
 msgstr "新增下一級子網路"
 
@@ -1308,8 +1292,8 @@ msgstr "刪除"
 
 #: site/ipaddr/modifyIpAddress.php:115
 msgid ""
-"You can add,edit or delete multiple IP addresses<br>by specifying IP range "
-"(e.g. 10.10.0.0-10.10.0.25)"
+"You can add,edit or delete multiple IP addresses<br>by specifying IP range (e.g. "
+"10.10.0.0-10.10.0.25)"
 msgstr ""
 "您可以新增、編輯或刪除多個 IP 位址<BR>透過指定 IP 範圍 (例如 "
 "10.10.0.0-10.10.0.25) "
@@ -1582,10 +1566,9 @@ msgstr "從 RIPE 匯入子網路"
 
 #: site/admin/ripeImport.php:15
 msgid ""
-"This script imports subnets from RIPE database for specific AS. Enter "
-"desired AS to search for subnets"
-msgstr ""
-"此指令碼從特定 AS 的 RIPE 資料庫中匯入子網路。 輸入所需的 AS 以搜尋子網路"
+"This script imports subnets from RIPE database for specific AS. Enter desired AS "
+"to search for subnets"
+msgstr "此指令碼從特定 AS 的 RIPE 資料庫中匯入子網路。 輸入所需的 AS 以搜尋子網路"
 
 #: site/admin/ripeImport.php:19
 msgid "AS number"
@@ -1617,11 +1600,9 @@ msgstr "僅允許字母數字、空格和底線符號"
 msgid "Please correct the following errors"
 msgstr "請修正下列錯誤"
 
-#: site/admin/customIPFieldsEditResult.php:45
-#: site/admin/manageVRFEditResult.php:26
+#: site/admin/customIPFieldsEditResult.php:45 site/admin/manageVRFEditResult.php:26
 #: site/admin/customVLANFieldsEditResult.php:46
-#: site/admin/manageDevicesEditResult.php:60
-#: site/admin/manageVLANEditResult.php:47
+#: site/admin/manageDevicesEditResult.php:60 site/admin/manageVLANEditResult.php:47
 #: site/admin/customSubnetFieldsEditResult.php:47
 #: site/admin/customUserFieldsEditResult.php:46
 msgid "Failed to"
@@ -1642,8 +1623,7 @@ msgid "Field"
 msgstr "欄位"
 
 #: site/admin/customIPFieldsEditResult.php:46
-#: site/admin/customVLANFieldsEditResult.php:47
-#: site/admin/groupEditResult.php:24
+#: site/admin/customVLANFieldsEditResult.php:47 site/admin/groupEditResult.php:24
 #: site/admin/customSubnetFieldsEditResult.php:48
 #: site/admin/customUserFieldsEditResult.php:47
 msgid "success"
@@ -1651,7 +1631,7 @@ msgstr "成功"
 
 #: site/admin/manageAD_AD.php:13
 msgid "Active Directory connection settings"
-msgstr "AD 連接設定"
+msgstr "AD 連線設定"
 
 #: site/admin/manageAD_AD.php:17
 msgid ""
@@ -1663,17 +1643,16 @@ msgstr "在這裡，您可以設定連接到 AD 的參數，以驗證 phpIPAM �
 msgid ""
 "to authenticate users. If you need additional settings please take a look at "
 "functions/adLDAP or check online documentation!"
-msgstr ""
-"為了驗證使用者。 如果您需要其他設定，請查看功能/ adLDAP 或查看線上檔案！"
+msgstr "為了驗證使用者。 如果您需要其他設定，請查看功能/ adLDAP 或查看線上檔案！"
 
 #: site/admin/manageAD_AD.php:20
 msgid ""
-"First create new user under user management with <u>same username as on AD</"
-"u> and set usertype to domain user. Also set proper permissions - group "
-"membership for new user."
+"First create new user under user management with <u>same username as on AD</u> "
+"and set usertype to domain user. Also set proper permissions - group membership "
+"for new user."
 msgstr ""
-"首先，使用與使用者管理相同的使用者名建立新使用者</ u>，並將 usertype 設定為網"
-"域使用者。 為新使用者設定適當的權限"
+"首先，使用與使用者管理相同的使用者名建立新使用者</ u>，並將 usertype 設定為網域使"
+"用者。 為新使用者設定適當的權限"
 
 #: site/admin/manageAD_AD.php:29 site/admin/manageAD_LDAP.php:29
 msgid "ldap extension not enabled in php"
@@ -1685,11 +1664,10 @@ msgstr "網域控制站"
 
 #: site/admin/manageAD_AD.php:43 site/admin/manageAD_LDAP.php:42
 msgid ""
-"Enter domain controllers, separated by ; (default: dc1.domain.local;dc2."
-"domain.local)"
-msgstr ""
-"輸入網域控制站，使用 ; 做為分隔字元 (預設為：dc1.domain.local;dc2.domain."
+"Enter domain controllers, separated by ; (default: dc1.domain.local;dc2.domain."
 "local)"
+msgstr ""
+"輸入網域控制站，使用 ; 做為分隔字元 (預設為：dc1.domain.local;dc2.domain.local)"
 
 #: site/admin/manageAD_AD.php:49 site/admin/manageAD_LDAP.php:48
 msgid "Base DN"
@@ -1697,10 +1675,9 @@ msgstr "基礎 DN"
 
 #: site/admin/manageAD_AD.php:54
 msgid ""
-"Enter base DN for LDAP (default: CN=Users,CN=Company,DC=domain,"
-"DC=local)<br>\n"
-"\t\tIf this is set to null then adLDAP will attempt to obtain this "
-"automatically from the rootDSE"
+"Enter base DN for LDAP (default: CN=Users,CN=Company,DC=domain,DC=local)<br>\n"
+"\t\tIf this is set to null then adLDAP will attempt to obtain this automatically "
+"from the rootDSE"
 msgstr ""
 "輸入 LDAP 的基本 DN (預設值： (default: CN=Users,CN=Company,DC=domain,"
 "DC=local)<br>\n"
@@ -1729,8 +1706,7 @@ msgid "true"
 msgstr "是"
 
 #: site/admin/manageAD_AD.php:80 site/admin/manageAD_LDAP.php:69
-msgid ""
-"Use SSL (LDAPS), your server needs to be setup (default: false), please see"
+msgid "Use SSL (LDAPS), your server needs to be setup (default: false), please see"
 msgstr "使用 SSL (LDAPS)，您的伺服器需要設定 (預設值：false)，請參閱"
 
 #: site/admin/manageAD_AD.php:87 site/admin/manageAD_LDAP.php:76
@@ -1739,8 +1715,8 @@ msgstr "使用 TLS"
 
 #: site/admin/manageAD_AD.php:95 site/admin/manageAD_LDAP.php:84
 msgid ""
-"If you wish to use TLS you should ensure that useSSL is set to false and "
-"vice-versa (default: false)"
+"If you wish to use TLS you should ensure that useSSL is set to false and vice-"
+"versa (default: false)"
 msgstr ""
 "如果您希望使用 TLS，則應確認將 useSSL 設定為 false，反之亦然 (預設值為 false)"
 
@@ -1764,15 +1740,14 @@ msgstr "儲存設定"
 msgid "Log files"
 msgstr "記錄檔案"
 
-#: site/admin/logs.php:16 site/admin/logDetail.php:23
-#: site/admin/logsExport.php:72 site/admin/logResult.php:16
-#: site/admin/logResult.php:40 site/admin/logResult.php:76
+#: site/admin/logs.php:16 site/admin/logDetail.php:23 site/admin/logsExport.php:72
+#: site/admin/logResult.php:16 site/admin/logResult.php:40
+#: site/admin/logResult.php:76
 msgid "Informational"
 msgstr "資訊"
 
-#: site/admin/logs.php:17 site/admin/logDetail.php:27
-#: site/admin/logResult.php:17 site/admin/logResult.php:45
-#: site/admin/logResult.php:80
+#: site/admin/logs.php:17 site/admin/logDetail.php:27 site/admin/logResult.php:17
+#: site/admin/logResult.php:45 site/admin/logResult.php:80
 msgid "Notice"
 msgstr "注意"
 
@@ -1824,12 +1799,11 @@ msgstr "篩選要在 IP 清單中顯示的欄位"
 
 #: site/admin/filterIPFields.php:36
 msgid ""
-"You can select which fields are actually being used for IP management, so "
-"you dont show any overhead if not used. IP, hostname and description are "
-"mandatory"
+"You can select which fields are actually being used for IP management, so you "
+"dont show any overhead if not used. IP, hostname and description are mandatory"
 msgstr ""
-"您可以選擇哪些欄位實際上用於 IP 管理，因此如果不使用，您不顯示任何開銷。 IP、"
-"主機名和描述是必須的"
+"您可以選擇哪些欄位實際上用於 IP 管理，因此如果不使用，您不顯示任何開銷。 IP、主機"
+"名和描述是必須的"
 
 #: site/admin/filterIPFields.php:44
 msgid "Check which fields to use for IP addresses"
@@ -1907,8 +1881,7 @@ msgstr "姓名"
 msgid "E-mail"
 msgstr "電子郵件"
 
-#: site/admin/users.php:42 site/admin/usersEditPrint.php:157
-#: site/sections.php:140
+#: site/admin/users.php:42 site/admin/usersEditPrint.php:157 site/sections.php:140
 msgid "Groups"
 msgstr "群組"
 
@@ -1934,8 +1907,7 @@ msgstr "所有群組"
 
 #: site/admin/users.php:116
 msgid ""
-"Administrator users will be able to view and edit all all sections and "
-"subnets"
+"Administrator users will be able to view and edit all all sections and subnets"
 msgstr "管理者可以編輯檢視所有區段和子網路"
 
 #: site/admin/users.php:117
@@ -1982,11 +1954,11 @@ msgstr "群組管理"
 
 #: site/admin/adminMenu.php:28
 msgid "AD connection settings"
-msgstr "AD連接設定"
+msgstr "AD連線設定"
 
 #: site/admin/adminMenu.php:34 site/admin/manageAD_LDAP.php:13
 msgid "LDAP connection settings"
-msgstr "LDAP連接設定"
+msgstr "LDAP 連線設定"
 
 #: site/admin/adminMenu.php:38
 msgid "Edit instructions"
@@ -1994,7 +1966,7 @@ msgstr "編輯說明"
 
 #: site/admin/adminMenu.php:47
 msgid "IP related management"
-msgstr "IP相關管理"
+msgstr "IP 相關管理"
 
 #: site/admin/adminMenu.php:50 site/admin/manageSection.php:15
 msgid "Section management"
@@ -2006,11 +1978,11 @@ msgstr "裝置管理"
 
 #: site/admin/adminMenu.php:59
 msgid "VLAN management"
-msgstr "VLAN管理"
+msgstr "VLAN 管理"
 
 #: site/admin/adminMenu.php:64
 msgid "VRF management"
-msgstr "VRF管理"
+msgstr "VRF 管理"
 
 #: site/admin/adminMenu.php:68
 msgid "RIPE import"
@@ -2074,8 +2046,7 @@ msgstr "本地使用者認證"
 
 #: site/admin/usersEditPrint.php:101
 msgid ""
-"Domain authenticates on AD, but still needs to be setup here for permissions "
-"etc."
+"Domain authenticates on AD, but still needs to be setup here for permissions etc."
 msgstr "網域名稱在 AD 上進行身份驗證，但仍需要在此處設定權限等。"
 
 #: site/admin/usersEditPrint.php:116
@@ -2196,26 +2167,23 @@ msgstr "移到不同區段"
 msgid "Select VLAN"
 msgstr "選擇VLAN"
 
-#: site/admin/manageSubnetEdit.php:135
-#: site/admin/manageVLANdropdownReload.php:23
+#: site/admin/manageSubnetEdit.php:135 site/admin/manageVLANdropdownReload.php:23
 msgid "No VLAN"
 msgstr "沒有VLAN"
 
-#: site/admin/manageSubnetEdit.php:138
-#: site/admin/manageVLANdropdownReload.php:26
+#: site/admin/manageSubnetEdit.php:138 site/admin/manageVLANdropdownReload.php:26
 msgid "Add"
 msgstr "加入"
 
-#: site/admin/manageSubnetEdit.php:139
-#: site/admin/manageVLANdropdownReload.php:27
+#: site/admin/manageSubnetEdit.php:139 site/admin/manageVLANdropdownReload.php:27
 msgid "+ Add new VLAN"
 msgstr "+ 加入新的VLAN"
 
 #: site/admin/manageSubnetEdit.php:166
 msgid ""
-"Enter master subnet if you want to nest it under existing subnet, or select "
-"root to create root subnet"
-msgstr "如果要將其嵌入在現有子網路下，請輸入主子網路，或選擇根建立根子網路"
+"Enter master subnet if you want to nest it under existing subnet, or select root "
+"to create root subnet"
+msgstr "如果要將其嵌入在現有子網路下，請輸入主要子網路，或選擇根建立根子網路"
 
 #: site/admin/manageSubnetEdit.php:188
 msgid "Select VRF"
@@ -2254,11 +2222,11 @@ msgstr "調整、分割或者縮小這個子網路"
 
 #: site/admin/manageSubnetEdit.php:239
 msgid "IP Requests"
-msgstr "IP位址申請"
+msgstr "IP 申請"
 
 #: site/admin/manageSubnetEdit.php:243
 msgid "Allow or deny IP requests for this subnet"
-msgstr "允許或拒絕此子網路的IP要求"
+msgstr "允許或拒絕此子網路的 IP 要求"
 
 #: site/admin/manageSubnetEdit.php:253
 msgid "Show as name"
@@ -2266,13 +2234,12 @@ msgstr "顯示名稱"
 
 #: site/admin/manageSubnetEdit.php:274
 msgid "Show Subnet name instead of subnet IP address"
-msgstr "用子網路名稱來替代子網路IP位址的顯示"
+msgstr "用子網路名稱來替代子網路 IP 位址的顯示"
 
 #: site/admin/manageSubnetEdit.php:310
 msgid ""
-"Removing subnets will delete ALL underlaying subnets and belonging IP "
-"addresses"
-msgstr "刪除該子網路將刪除該子網路所屬IP位址和子網路"
+"Removing subnets will delete ALL underlaying subnets and belonging IP addresses"
+msgstr "刪除子網路將刪除該子網路所屬 IP 位址和子網路"
 
 #: site/admin/manageSubnetEdit.php:324
 msgid "Delete subnet"
@@ -2315,15 +2282,13 @@ msgstr "是"
 msgid "custom subnet field"
 msgstr "自訂子網路"
 
-#: site/admin/customSubnetFieldsEdit.php:31
-#: site/admin/customIPFieldsEdit.php:31 site/admin/customVLANFieldsEdit.php:31
-#: site/admin/customUserFieldsEdit.php:31
+#: site/admin/customSubnetFieldsEdit.php:31 site/admin/customIPFieldsEdit.php:31
+#: site/admin/customVLANFieldsEdit.php:31 site/admin/customUserFieldsEdit.php:31
 msgid "Select field name"
 msgstr "選擇欄位名稱"
 
-#: site/admin/customSubnetFieldsEdit.php:45
-#: site/admin/customIPFieldsEdit.php:45 site/admin/customVLANFieldsEdit.php:45
-#: site/admin/customUserFieldsEdit.php:45
+#: site/admin/customSubnetFieldsEdit.php:45 site/admin/customIPFieldsEdit.php:45
+#: site/admin/customVLANFieldsEdit.php:45 site/admin/customUserFieldsEdit.php:45
 msgid "Close"
 msgstr "關閉"
 
@@ -2467,8 +2432,7 @@ msgstr "不能移動檔案到上傳資料夾"
 msgid "Success"
 msgstr "成功"
 
-#: site/admin/manageDevicesEdit.php:24
-#: site/admin/manageDevicesEditResult.php:60
+#: site/admin/manageDevicesEdit.php:24 site/admin/manageDevicesEditResult.php:60
 msgid "device"
 msgstr "裝置"
 
@@ -2553,7 +2517,7 @@ msgstr "編輯"
 
 #: site/admin/manageRequests.php:53
 msgid "No IP address requests available"
-msgstr "沒有可用的 IP 位址要求"
+msgstr "沒有待處理的 IP 位址要求"
 
 #: site/admin/usersEditResult.php:44
 msgid "User deleted successfully"
@@ -2635,8 +2599,7 @@ msgid "Admin name"
 msgstr "管理者名稱"
 
 #: site/admin/settings.php:66
-msgid ""
-"Set administrator name to display when sending mails and for contact info"
+msgid "Set administrator name to display when sending mails and for contact info"
 msgstr "設定發送郵件和聯繫資訊時顯示的管理者名稱"
 
 #: site/admin/settings.php:72
@@ -2644,8 +2607,7 @@ msgid "Admin mail"
 msgstr "管理者電子郵件"
 
 #: site/admin/settings.php:77
-msgid ""
-"Set administrator e-mail to display when sending mails and for contact info"
+msgid "Set administrator e-mail to display when sending mails and for contact info"
 msgstr "設定管理者電子郵件在發送郵件和聯繫資訊時顯示"
 
 #: site/admin/settings.php:85
@@ -2672,7 +2634,7 @@ msgstr "OpenLDAP 驗證"
 msgid ""
 "Set authentication type for users. Requires php LDAP support. Set connection "
 "settings in admin menu"
-msgstr "為使用者設定認證類型。 需要 php LDAP 支援。 在管理功能表中進行連接設定"
+msgstr "為使用者設定認證類型。 需要 php LDAP 支援。 在管理功能表中進行連線設定"
 
 #: site/admin/settings.php:105
 msgid "Tooltips"
@@ -2684,15 +2646,15 @@ msgstr "啟用或停用工具提示"
 
 #: site/admin/settings.php:116
 msgid "IP request module"
-msgstr "IP 位址申請模組"
+msgstr "IP 申請模組"
 
 #: site/admin/settings.php:121
 msgid "Enable or disable IP request module"
-msgstr "啟用或停用 IP 位址申請模組"
+msgstr "啟用或停用 IP 申請模組"
 
 #: site/admin/settings.php:127
 msgid "Enable VRF support"
-msgstr "啟用 VRF 支持"
+msgstr "啟用 VRF 支援"
 
 #: site/admin/settings.php:132
 msgid "Enable or disable VRF module"
@@ -2705,11 +2667,11 @@ msgstr "反解 DNS 名稱"
 #: site/admin/settings.php:143
 msgid ""
 "Check reverse dns lookups for IP addresses that do not have hostname in "
-"database. (Activating this feature can significantly increase ip address "
-"pages loading time!)"
+"database. (Activating this feature can significantly increase ip address pages "
+"loading time!)"
 msgstr ""
-"檢查在資料庫中沒有主機名稱 IP 位址的 DNS 反查。 (啟動此功能可以顯著增加 IP 位"
-"址頁面載入時間)"
+"檢查在資料庫中沒有主機名稱 IP 位址的 DNS 反查。 (啟動此功能可以顯著增加 IP 位址頁"
+"面載入時間)"
 
 #: site/admin/settings.php:149
 msgid "Duplicate VLANs"
@@ -2737,12 +2699,12 @@ msgstr "IP 位址顯示限制"
 
 #: site/admin/settings.php:187
 msgid "Don't show visual display"
-msgstr "不要顯示可視化顯示"
+msgstr "不要顯示視覺化指示器"
 
 #: site/admin/settings.php:205
 msgid ""
-"Select netmask limit for visual display of IP addresses (mask equal or "
-"bigger than - more then /22 not recommended)"
+"Select netmask limit for visual display of IP addresses (mask equal or bigger "
+"than - more then /22 not recommended)"
 msgstr "選擇網路遮罩限制顯示IP位址 (遮罩等於或大於 - 不推薦使用大於/22的遮罩) "
 
 #: site/admin/settings.php:212
@@ -2823,7 +2785,7 @@ msgstr "沒有找到子網路"
 
 #: site/admin/ripeImportTelnet.php:56
 msgid "I found the following routes belonging to AS"
-msgstr "發現下屬於AS的路由器"
+msgstr "找到所屬於 AS 的路由器"
 
 #: site/admin/ripeImportTelnet.php:69
 msgid "Remove this subnet"
@@ -2874,8 +2836,7 @@ msgid "Permissions info"
 msgstr "權限資訊"
 
 #: site/admin/manageSection.php:92
-msgid ""
-"If group is not set in permissions then it will not have access to subnet"
+msgid "If group is not set in permissions then it will not have access to subnet"
 msgstr "如果群組沒有設定權限，那麼它將無法存取子網路"
 
 #: site/admin/manageSection.php:93
@@ -2887,31 +2848,26 @@ msgid ""
 "Subnet permissions must be set separately. By default if group has access to "
 "section<br>it will have same permission on subnets"
 msgstr ""
-"子網路權限必須單獨設定。 預設情況下，如果群組可以存取部分<br>，它將對子網路具"
-"有相同的權限"
+"子網路權限必須單獨設定。 預設情況下，如果群組可以存取部分<br>，它將對子網路具有相"
+"同的權限"
 
 #: site/admin/manageSection.php:95
-msgid ""
-"You can choose to delegate section permissions to all underlying subnets"
+msgid "You can choose to delegate section permissions to all underlying subnets"
 msgstr "您可以選擇將部分權限委派給所有底層子網路"
 
 #: site/admin/manageSection.php:96
 msgid ""
-"If group does not have access to section it will not be able to access "
-"subnet, even if<br>subnet permissions are set"
+"If group does not have access to section it will not be able to access subnet, "
+"even if<br>subnet permissions are set"
 msgstr "如果群組無法存取部分，即使設定了<br>子網路權限，它將無法存取子網路"
 
-#: site/admin/customSubnetFieldsOrder.php:15
-#: site/admin/customIPFieldsOrder.php:15
-#: site/admin/customVLANFieldsOrder.php:15
-#: site/admin/customUserFieldsOrder.php:15
+#: site/admin/customSubnetFieldsOrder.php:15 site/admin/customIPFieldsOrder.php:15
+#: site/admin/customVLANFieldsOrder.php:15 site/admin/customUserFieldsOrder.php:15
 msgid "Fileds cannot be empty"
 msgstr "欄位不能為空"
 
-#: site/admin/customSubnetFieldsOrder.php:19
-#: site/admin/customIPFieldsOrder.php:19
-#: site/admin/customVLANFieldsOrder.php:19
-#: site/admin/customUserFieldsOrder.php:19
+#: site/admin/customSubnetFieldsOrder.php:19 site/admin/customIPFieldsOrder.php:19
+#: site/admin/customVLANFieldsOrder.php:19 site/admin/customUserFieldsOrder.php:19
 msgid "Reordering failed"
 msgstr "排序失敗"
 
@@ -2989,8 +2945,8 @@ msgstr "嚴格模式"
 
 #: site/admin/manageSectionEdit.php:65
 msgid ""
-"No disables overlapping subnet checks. Subnets can be nested/created "
-"randomly. Anarchy."
+"No disables overlapping subnet checks. Subnets can be nested/created randomly. "
+"Anarchy."
 msgstr "沒有禁止重疊子網路檢查。 子網路可以嵌入/隨機建立。 無固定模式"
 
 #: site/admin/manageSectionEdit.php:90
@@ -3009,8 +2965,7 @@ msgstr "檢查以在區段中委派所有子網路的權限"
 msgid "Deleting Section will delete all belonging subnets and IP addresses"
 msgstr "刪除區段將刪除所有屬於子網路和 IP 位址"
 
-#: site/admin/customIPFieldsOrder.php:20
-#: site/admin/customVLANFieldsOrder.php:20
+#: site/admin/customIPFieldsOrder.php:20 site/admin/customVLANFieldsOrder.php:20
 #: site/admin/customUserFieldsOrder.php:20
 msgid "Fields reordered successfully"
 msgstr "欄位排序成功"
@@ -3049,26 +3004,25 @@ msgstr "沒有 VLAN 設定"
 
 #: site/admin/manageAD_LDAP.php:17
 msgid ""
-"Here you can set parameters for connecting to OpenLDAP for authenticating "
-"users. phpIPAM uses"
+"Here you can set parameters for connecting to OpenLDAP for authenticating users. "
+"phpIPAM uses"
 msgstr "在這裡，您可以設定連接到 OpenLDAP 的參數，以驗證 users.phpIPAM 使用"
 
 #: site/admin/manageAD_LDAP.php:20
 msgid ""
-"First create new user under user management with <u>same username as on "
-"LDAP</u> and set usertype to domain user. Also set proper groups "
-"(premissions) for this user."
+"First create new user under user management with <u>same username as on LDAP</u> "
+"and set usertype to domain user. Also set proper groups (premissions) for this "
+"user."
 msgstr ""
-"首先在使用者管理下使用與使用者名相同的使用者名建立新使用者</ u>，並將使用者類"
-"型設定為網域使用者。 還為此使用者設定適當的群組 (權限) 。"
+"首先在使用者管理下使用與使用者名相同的使用者名建立新使用者</ u>，並將使用者類型設"
+"定為網域使用者。 還為此使用者設定適當的群組 (權限) 。"
 
 #: site/admin/manageAD_LDAP.php:38
 msgid "LDAP servers"
 msgstr "LDAP 伺服器"
 
 #: site/admin/manageAD_LDAP.php:54
-msgid ""
-"Enter base DN for LDAP (default: CN=Users,CN=Company,DC=domain,DC=local)"
+msgid "Enter base DN for LDAP (default: CN=Users,CN=Company,DC=domain,DC=local)"
 msgstr "為 LDAP 輸入基礎 DN (預設：CN=Users,CN=Company,DC=domain,DC=local)"
 
 #: site/admin/manageAD_LDAP.php:91
@@ -3165,12 +3119,11 @@ msgstr "XLS / CSV 子網路匯入"
 
 #: site/admin/CSVimport.php:42
 msgid ""
-"To successfully import data please use the following XLS/CSV structure:"
-"<br>( ip | State | Description | hostname | MAC | Owner | Device | Port | "
-"Note "
+"To successfully import data please use the following XLS/CSV structure:<br>( ip "
+"| State | Description | hostname | MAC | Owner | Device | Port | Note "
 msgstr ""
-"請使用XLS / CSV格式匯入數據：<BR> (IP |狀態|描述|主機名| MAC | 擁有者 | 裝置 "
-"| 連接埠 | 備註"
+"請使用XLS / CSV格式匯入數據：<BR> (IP |狀態|描述|主機名| MAC | 擁有者 | 裝置 | 連"
+"接埠 | 備註"
 
 #: site/admin/CSVimport.php:48
 msgid "Upload file"
@@ -3209,7 +3162,7 @@ msgstr "新的子網路必須小於 /8"
 
 #: site/admin/manageSubnetResizeSave.php:53
 msgid "New subnet not in master subnet"
-msgstr "新的子網路不在主子網路內"
+msgstr "新的子網路不在主要子網路內"
 
 #: site/admin/manageSubnetResizeSave.php:66
 msgid "Nested subnet out of new subnet"
@@ -3233,8 +3186,7 @@ msgstr "目前群組"
 
 #: site/admin/manageSubnetsplit.php:107
 msgid ""
-"You can split subnet to smaller subnets by specifying new subnets. Please "
-"note:"
+"You can split subnet to smaller subnets by specifying new subnets. Please note:"
 msgstr "您可以透過指定新子網路將子網路拆分為較小的子網路。請注意："
 
 #: site/admin/manageSubnetsplit.php:109
@@ -3258,28 +3210,27 @@ msgstr "目前遮罩"
 
 #: site/admin/manageSubnetresize.php:47
 msgid "New mask"
-msgstr "新的遮罩"
+msgstr "新遮罩"
 
 #: site/admin/manageSubnetresize.php:59
 msgid ""
-"You can change subnet size by specifying new mask (bigger or smaller). "
-"Please note"
+"You can change subnet size by specifying new mask (bigger or smaller). Please "
+"note"
 msgstr "您可以透過指定新的遮罩 (較大或更小) 變更子網路大小。請注意"
 
 #: site/admin/manageSubnetresize.php:61
-msgid ""
-"If subnet has hosts outside of resized subnet resizing will not be possible"
+msgid "If subnet has hosts outside of resized subnet resizing will not be possible"
 msgstr "如果子網路具有調整大小的子網路之外的主機則能調整大小"
 
 #: site/admin/manageSubnetresize.php:62
 msgid ""
-"If strict mode is enabled check will be made to ensure it is still inside "
-"master subnet"
-msgstr "如果啟用嚴格模式，將檢查是否仍然在主子網路內"
+"If strict mode is enabled check will be made to ensure it is still inside master "
+"subnet"
+msgstr "如果啟用嚴格模式，將檢查是否仍然在主要子網路內"
 
 #: site/admin/manageDevices.php:17
 msgid "Add device"
-msgstr "增加裝置"
+msgstr "加入裝置"
 
 #: site/admin/manageDevices.php:22
 msgid "No devices configured"
@@ -3313,8 +3264,7 @@ msgstr "IP 位址數量"
 
 #: site/admin/manageSubnettruncate.php:51
 msgid ""
-"Truncating network will remove all IP addresses, that belong to selected "
-"subnet!"
+"Truncating network will remove all IP addresses, that belong to selected subnet!"
 msgstr "分割子網路將會移除所選擇子網路的所有IP位址"
 
 #: site/admin/manageSubnetTruncateSave.php:23
@@ -3361,8 +3311,7 @@ msgstr "將使用者加入群組"
 msgid "No available users to add to group"
 msgstr "沒有可用使用者加入群組"
 
-#: site/admin/groupAddUsersResult.php:22
-#: site/admin/groupRemoveUsersResult.php:21
+#: site/admin/groupAddUsersResult.php:22 site/admin/groupRemoveUsersResult.php:21
 msgid "Error - no group ID"
 msgstr "錯誤 - 沒有群組ID"
 
@@ -3537,7 +3486,7 @@ msgstr "您好"
 
 #: site/userMenu.php:29
 msgid "Logged in as"
-msgstr "登入為"
+msgstr "已登入為"
 
 #: site/userMenu.php:32
 msgid "Logout"
@@ -3613,15 +3562,15 @@ msgstr "顯示工具功能表"
 
 #: site/sections.php:144
 msgid "IP related settings"
-msgstr "IP位址的相關設定"
+msgstr "IP 相關設定"
 
 #: site/footer.php:20
 msgid "In case of problems please contact"
-msgstr "若遇到問題請聯絡"
+msgstr "如遇到問題，請您聯絡"
 
 #: site/ipaddr/ipAddressPrintVisual.php:12
 msgid "Visual subnet display"
-msgstr "視覺化子網路顯示器"
+msgstr "視覺化子網路指示器"
 
 #: site/tools/ipCalcResult.php:40
 msgid "Network"
@@ -3633,7 +3582,7 @@ msgstr "子網路遮罩"
 
 #: site/tools/ipCalcResult.php:40
 msgid "Subnet bitmask"
-msgstr "子網路位遮罩"
+msgstr "子網路位元遮罩"
 
 #: site/tools/ipCalcResult.php:40
 msgid "Min host IP"
@@ -3697,11 +3646,11 @@ msgstr "您可以在這裡編輯不同的語言"
 
 #: site/admin/languages
 msgid "Add translation file to directory functions/locale/ in phpipam"
-msgstr "將翻譯後的檔案放入 functions/locale/ 資料夾內"
+msgstr "請將翻譯語言檔放入 functions/locale/ 資料夾內"
 
 #: site/admin/languages
 msgid "Create new language with same code as translation file"
-msgstr "使用相同的代碼來建立新的語言"
+msgstr "以相同的編碼來建立新的語言"
 
 #: site/admin/lanuguageEdit.php
 msgid "Add new language"
@@ -3765,15 +3714,15 @@ msgstr "讀 / 寫 / 管理"
 
 #: site/ipaddr/modifyIpAddressCheck.php
 msgid "IP edit successful"
-msgstr "IP編輯成功"
+msgstr "IP 編輯成功"
 
 #: site/ipaddr/modifyIpAddressCheck.php
 msgid "IP add successful"
-msgstr "IP加入成功"
+msgstr "IP 加入成功"
 
 #: site/ipaddr/modifyIpAddressCheck.php
 msgid "IP delete successful"
-msgstr "IP刪除成功"
+msgstr "IP 刪除成功"
 
 #: site/admin/subnetDetailsSlaves.php
 msgid "You do not have permissions to truncate subnet"
@@ -3959,8 +3908,8 @@ msgstr "Ping的間隔時間"
 
 #: site/admin/settings.php
 msgid ""
-"Ping status intervals for IP addresses in seconds - warning;offline "
-"(Default: 1800;3600)"
+"Ping status intervals for IP addresses in seconds - warning;offline (Default: "
+"1800;3600)"
 msgstr "Ping的間隔時間，單位秒 - 警告；離線  (預設：1800；3600) "
 
 #: site/admin/settingsEdit.php
@@ -4021,7 +3970,7 @@ msgstr "您可以透過設定functions/scan/config-scan.php檔案來設定掃描
 
 #: site/ipaddr/subnetScan.php
 msgid "Discovery scans"
-msgstr "發現掃描"
+msgstr "探索掃描"
 
 #: site/ipaddr/subnetScan.php
 msgid "Status update scans"
@@ -4073,7 +4022,7 @@ msgstr "掃描子網路需要多執行緒。請重新編譯PHP並啟用pcntl擴�
 
 #: site/ipaddr/subnetDiscoveryPing.php
 msgid "Add discovered hosts"
-msgstr "加入發現主機"
+msgstr "加入已探索主機"
 
 #: site/ipaddr/subnetDiscoveryPingResult.php
 msgid "Scan results added to database"
@@ -4430,8 +4379,7 @@ msgstr "最愛的子網路"
 msgid "No favourite subnets selected"
 msgstr "沒有選擇最愛的子網路"
 
-msgid ""
-"You can add subnets to favourites by clicking star icon in subnet details"
+msgid "You can add subnets to favourites by clicking star icon in subnet details"
 msgstr "您可以按下子網路詳細資訊旁邊的 星號 來將子網路加入到我的最愛"
 
 msgid "Click to remove from favourites"
@@ -4593,7 +4541,7 @@ msgstr "小工具大小"
 
 #: site/ipaddr/scan/subnetScanDiscoveryPing.php
 msgid "No alive host found"
-msgstr "沒有發現可用的主機"
+msgstr "沒有找到可用的主機"
 
 msgid "Errors occured during scan"
 msgstr "掃描期間發生錯誤"
@@ -4689,7 +4637,7 @@ msgstr "欄位已修復"
 
 #: site/sections.php
 msgid "Database errors detected"
-msgstr "發現資料庫錯誤"
+msgstr "偵測到資料庫錯誤"
 
 #: site/tools/devicesPrint.php
 msgid "Show all hosts"
@@ -4740,8 +4688,8 @@ msgid "Use nicer URL structure"
 msgstr "使用更好的URL結構"
 
 msgid ""
-"Please note that mod_rewrite is required with appropriate settings if "
-"pretified links are selected."
+"Please note that mod_rewrite is required with appropriate settings if pretified "
+"links are selected."
 msgstr "請注意，如果選擇了預覽連結，則需要使用mod_rewrite進行適當的設定。"
 
 #: site/admin/settings.php
@@ -4784,8 +4732,8 @@ msgid ""
 "Select inactive timeout for user sessions. Please note that if default php "
 "session settings in php.ini are lower they will override this"
 msgstr ""
-"為使用者連線選擇未開啟逾時。 請注意，如果php.ini中的預設php連線設定較低，它們"
-"將覆蓋此"
+"為使用者連線選擇未開啟逾時。 請注意，如果php.ini中的預設php連線設定較低，它們將覆"
+"蓋此"
 
 #: site/login/index.php
 msgid "You session has timed out"
@@ -4793,10 +4741,10 @@ msgstr "連線逾時"
 
 #: site/admin/manageSubnetEdit.php
 msgid "Discover new hosts"
-msgstr "發現新的主機"
+msgstr "探索新的主機"
 
 msgid "Discover new hosts in this subnet"
-msgstr "在這個子網路內發現新的主機"
+msgstr "在此子網路內探索新的主機"
 
 # # 1.18.00
 # ## 1.18.006 ###
@@ -4945,8 +4893,7 @@ msgid "Mail invitation"
 msgstr "郵件邀請"
 
 msgid ""
-"If you wish to mail share details enter email address (separate multiple "
-"with ,)"
+"If you wish to mail share details enter email address (separate multiple with ,)"
 msgstr "如果您希望寄送詳細共用資訊，請輸入電子郵件位址 (用「，」分開)"
 
 msgid "List of temporary shared objects"
@@ -4989,7 +4936,7 @@ msgid "Subnet masks"
 msgstr "子網路遮罩"
 
 msgid "Bitmask"
-msgstr "位遮罩 (Bitmask)"
+msgstr "位元遮罩 (Bitmask)"
 
 msgid "Netmask"
 msgstr "遮罩"
@@ -5145,7 +5092,7 @@ msgid "Tag delete success"
 msgstr "識別刪除成功"
 
 msgid "Manage Address Tags"
-msgstr "管理位址識別"
+msgstr "管理位址標籤"
 
 msgid "Add Tag"
 msgstr "加入標籤"
@@ -5172,7 +5119,7 @@ msgid "tag"
 msgstr "標籤"
 
 msgid "Show tag"
-msgstr "顯示識別"
+msgstr "顯示標籤"
 
 msgid "Bg color"
 msgstr "BG顏色"
@@ -5199,29 +5146,29 @@ msgid "Refresh"
 msgstr "重新整理"
 
 msgid ""
-"How often a secondary will poll the primary server to see if the serial "
-"number for the zone has increased."
+"How often a secondary will poll the primary server to see if the serial number "
+"for the zone has increased."
 msgstr "輔助伺服器多長時間輪詢主伺服器，顯示該區域的序列號是否增加。"
 
 msgid "Retry"
 msgstr "重試"
 
 msgid ""
-"If a secondary was unable to contact the primary at the last refresh, wait "
-"the retry value before trying again."
+"If a secondary was unable to contact the primary at the last refresh, wait the "
+"retry value before trying again."
 msgstr "如果次要上次重新整理時無法聯繫主要使用者，請等待重試值再次嘗試。"
 
 msgid "Expire"
 msgstr "到期"
 
 msgid ""
-"How long a secondary will still treat its copy of the zone data as valid if "
-"it can't contact the primary."
+"How long a secondary will still treat its copy of the zone data as valid if it "
+"can't contact the primary."
 msgstr "如果無法聯繫主要使用者，則輔助站仍然會將其副本的區域數據視為有效。"
 
 msgid ""
-"negative caching time - the time a NAME ERROR = NXDOMAIN result may be "
-"cached by any resolver"
+"negative caching time - the time a NAME ERROR = NXDOMAIN result may be cached by "
+"any resolver"
 msgstr "絕對緩存時間 - 任何解析器可能會緩存NAME ERROR = NXDOMAIN結果的時間"
 
 msgid "Default TTL for domain records"
@@ -5357,8 +5304,7 @@ msgid "PTR zone refresh records"
 msgstr "重新整理 PTR 區域"
 
 msgid ""
-"Clicking on regenerate will remove all PTR records for subnet and recreate "
-"new."
+"Clicking on regenerate will remove all PTR records for subnet and recreate new."
 msgstr "按下重新產生將刪除子網路的所有PTR記錄並重新建立新的。"
 
 msgid "Database settings"
@@ -5413,8 +5359,7 @@ msgid "Sections to display nameserver set in"
 msgstr "顯示名稱伺服器的區段"
 
 msgid ""
-"removing nameserver set will also remove all references from belonging "
-"subnets!"
+"removing nameserver set will also remove all references from belonging subnets!"
 msgstr "刪除名稱伺服器設定也將從所屬的子網路刪除所有資訊！"
 
 msgid "Manage Nameserver sets"
@@ -5607,7 +5552,7 @@ msgid "Invalid credentials"
 msgstr "無效憑證"
 
 msgid " Following users were found"
-msgstr "發現下列使用者"
+msgstr " 找到下列使用者"
 
 msgid "Authentication method"
 msgstr "認證方法"
@@ -5679,7 +5624,7 @@ msgid "phpIPAM currently supports 4 methods for authentication:"
 msgstr "本系統支持4中認證方式"
 
 msgid "Local authentication"
-msgstr "本地認證"
+msgstr "本機驗證"
 
 msgid "AD (Active Directory) authentication"
 msgstr "AD (Active Directory) 驗證"
@@ -5691,16 +5636,15 @@ msgid "Radius authentication"
 msgstr "Radius 驗證"
 
 msgid ""
-"For AD/LDAP connection phpipam is using adLDAP, for documentation please "
-"check "
-msgstr "正在使用adLDAP來連接AD/LDAP，有關檔案請檢查"
+"For AD/LDAP connection phpipam is using adLDAP, for documentation please check "
+msgstr "若要在 phpIPAM 使用 AD/LDAP 連線，請參考說明文件 "
 
 msgid ""
-"First create new user under user management with <u>same username as on AD</"
-"u> and set authention type to one of available methods."
+"First create new user under user management with <u>same username as on AD</u> "
+"and set authention type to one of available methods."
 msgstr ""
-"首先在使用者管理下建立新使用者，使用與AD </ u>相同的使用者名，並將驗證類型設"
-"定為可用的方法。"
+"首先，請在使用者管理下建立新使用者，並與 AD </ u> 相同的使用者名稱，且在驗證類型"
+"中選擇可用的方式。"
 
 msgid "Failed to edit authentication method"
 msgstr "編輯驗證方式失敗"
@@ -5721,7 +5665,7 @@ msgid "Domain account for search operations (optional)"
 msgstr "搜尋操作的網域使用者 (可選) "
 
 msgid "Radius connection settings"
-msgstr "Radius 連接設定"
+msgstr "Radius 連線設定"
 
 msgid "Radius server"
 msgstr "Radius 伺服器"
@@ -5763,22 +5707,22 @@ msgid "Admin"
 msgstr "管理"
 
 msgid "Nameservers"
-msgstr "網域名伺服器"
+msgstr "名稱伺服器"
 
 msgid "Select nameserver set"
-msgstr "選擇網域名稱伺服器設定"
+msgstr "選擇名稱伺服器設定"
 
 msgid "Autocreate reverse records"
 msgstr "自動建立反向記錄"
 
 msgid "Auto create reverse (PTR) records for this subnet"
-msgstr "自動為本子網路建立反向 (PTR) 的記錄"
+msgstr "自動為此子網路建立反向 (PTR) 的記錄"
 
 msgid "Show DNS records"
-msgstr "顯示DNS記錄"
+msgstr "顯示 DNS 記錄"
 
 msgid "Show DNS records for hosts"
-msgstr "顯示本主機DNS記錄"
+msgstr "顯示主機 DNS 記錄"
 
 msgid "No VLANs"
 msgstr "沒有 VLAN"
@@ -5829,12 +5773,12 @@ msgid "Master Folder"
 msgstr "主資料夾"
 
 msgid ""
-"Enter master folder if you want to nest it under existing folder, or select "
-"root to create root folder"
+"Enter master folder if you want to nest it under existing folder, or select root "
+"to create root folder"
 msgstr "如果要將其嵌套在現有資料夾下，請輸入主資料夾，或選擇root建立根資料夾"
 
 msgid "No nameservers"
-msgstr "沒有網域名稱伺服器"
+msgstr "沒有名稱伺服器"
 
 msgid "Error: "
 msgstr "錯誤："
@@ -5846,7 +5790,7 @@ msgid "Invalid security code"
 msgstr "無效的安全碼"
 
 msgid "IP requests disabled"
-msgstr "IP申請模組停用"
+msgstr "IP 申請模組停用"
 
 msgid "Invalid share key"
 msgstr "無效的共用金鑰"
@@ -5909,7 +5853,7 @@ msgid "Debug"
 msgstr "偵錯"
 
 msgid "Discovery scans discover new hosts"
-msgstr "掃描發現新主機"
+msgstr "探索掃描新主機"
 
 msgid "Status update scans update alive status for whole subnet"
 msgstr "狀態更新掃描整個子網路的更新活動狀態"
@@ -6156,17 +6100,16 @@ msgid "Syslog files are sent to syslog"
 msgstr "Syslog檔案被發送到syslog"
 
 msgid ""
-"Number of discovered hosts exceed maximum possible defined by php.ini - set "
-"to"
-msgstr "發現的主機數超過了php.ini定義的最大可能值 - 設定為"
+"Number of discovered hosts exceed maximum possible defined by php.ini - set to"
+msgstr "探索的主機數超過了 php.ini 定義的最大可能值 - 設定為"
 
 msgid "Please adjust your php.ini settings for value `max_input_vars`"
 msgstr "請調整您的php.ini設定值「max_input_vars」"
 
 msgid ""
-"For AD/LDAP/NetIQ connection phpipam is using adLDAP, for documentation "
-"please check "
-msgstr "正在使用adLDAP連接AD/LDAP/NetIQ，有關檔案請檢查"
+"For AD/LDAP/NetIQ connection phpipam is using adLDAP, for documentation please "
+"check "
+msgstr "要在 phpIPAM 使用 AD/LDAP/NetIQ 驗證，請參考說明文件。"
 
 msgid "Search domain groups"
 msgstr "搜尋網域群組"
@@ -6328,13 +6271,12 @@ msgstr "裝置名稱"
 msgid "No firewall zones configured"
 msgstr "沒有防火牆區域設定"
 
-msgid ""
-"Invalid zone name length parameter. A valid valid value is between 3 and 31"
+msgid "Invalid zone name length parameter. A valid valid value is between 3 and 31"
 msgstr "無效的區域名稱長度參數。有效的有效值介於3和31之間"
 
 msgid ""
-"Invalid IPv4 address type alias. Only alphanumeric characters, &quot;-"
-"&quot;, &quot;_&quot; and &quot;.&quot; are allowed."
+"Invalid IPv4 address type alias. Only alphanumeric characters, &quot;-&quot;, "
+"&quot;_&quot; and &quot;.&quot; are allowed."
 msgstr ""
 "無效的IPv4位址類型別名。只有字母數字字元，&quot;-&quot;, &quot;_&quot; and "
 "&quot;.&quot;是允許的。"
@@ -6353,8 +6295,7 @@ msgstr "區域指示器無效 只有字母數字字元，「 - 」，「_」 和
 msgid "Invalid zone generator method. Do not manipulate the POST values!"
 msgstr "區域產生方法無效。 不要操縱POST值！"
 
-msgid ""
-"Invalid zone generator types [decimal]. Do not manipulate the POST values!"
+msgid "Invalid zone generator types [decimal]. Do not manipulate the POST values!"
 msgstr "區域產生器類型無效[decimal]。 不要操縱POST值！"
 
 msgid "Invalid zone generator types [hex]. Do not manipulate the POST values!"
@@ -6364,8 +6305,7 @@ msgid "Invalid zone generator types [text]. Do not manipulate the POST values!"
 msgstr "區域產生器類型無效[text]。 不要操縱POST值！"
 
 msgid ""
-"Invalid padding value. Use the checkbox to set the padding value to on or "
-"off."
+"Invalid padding value. Use the checkbox to set the padding value to on or off."
 msgstr "填充值無效。使用復選框將填充值設定為開或關。"
 
 msgid "Invalid device type."
@@ -6376,11 +6316,11 @@ msgstr "最大區域名稱長度"
 
 msgid ""
 "Choose a maximum lenght of the zone name.<br>The default length is 3, the "
-"maximum is 31 characters.<br>(keep in mind that your firewall may have a "
-"limit for the length of zone names or address objects )"
+"maximum is 31 characters.<br>(keep in mind that your firewall may have a limit "
+"for the length of zone names or address objects )"
 msgstr ""
-"選擇區域名稱的最大長度。<br>預設長度為3，最多為31個字元。<br> (請注意，防火牆"
-"可能對區域名稱或位址物件的長度有限制) "
+"選擇區域名稱的最大長度。<br>預設長度為3，最多為31個字元。<br> (請注意，防火牆可能"
+"對區域名稱或位址物件的長度有限制) "
 
 msgid "IPv4 address type alias"
 msgstr "IPv4位址類型別名"
@@ -6388,8 +6328,7 @@ msgstr "IPv4位址類型別名"
 msgid "IPv6 address type alias"
 msgstr "IPv6位址類型別名"
 
-msgid ""
-"Address type aliases are used to indicate a IPv4 or IPv6 address object."
+msgid "Address type aliases are used to indicate a IPv4 or IPv6 address object."
 msgstr "位址類型別名用於指示IPv4或IPv6位址物件。"
 
 msgid "The separator is used to keep the name of address objects tidy."
@@ -6399,12 +6338,12 @@ msgid "Own zone indicator"
 msgstr "所有者區域指示器"
 
 msgid ""
-"The indicator is used to indicate a zone wether is owned by the company or "
-"by a customer.<br>It is the leading character of the zone name but will be "
-"separated from the zone name in the database."
+"The indicator is used to indicate a zone wether is owned by the company or by a "
+"customer.<br>It is the leading character of the zone name but will be separated "
+"from the zone name in the database."
 msgstr ""
-"該指示器用於指示公司或客戶擁有的區域。<br>區域名稱的主要角色，但將與資料庫中"
-"的區域名稱分隔。"
+"該指示器用於指示公司或客戶擁有的區域。<br>區域名稱的主要角色，但將與資料庫中的區"
+"域名稱分隔。"
 
 msgid "Customer zone indicator"
 msgstr "自訂區域指示器"
@@ -6413,34 +6352,34 @@ msgid "Zone generator method"
 msgstr "區域產生方法"
 
 msgid ""
-"Generate zone names automaticaly with the setting &quot;decimal&quot; or "
-"&quot;hex&quot;.<br>To use your own unique zone names you can choose the "
-"option &quot;text&quot."
+"Generate zone names automaticaly with the setting &quot;decimal&quot; or &quot;"
+"hex&quot;.<br>To use your own unique zone names you can choose the option &quot;"
+"text&quot."
 msgstr ""
-"使用設定「十進制」自動產生區域名稱 或「十六進制」。<br>要使用您自己的唯一區域"
-"名稱，您可以選擇「文本」選項。"
+"使用設定「十進制」自動產生區域名稱 或「十六進制」。<br>要使用您自己的唯一區域名"
+"稱，您可以選擇「文本」選項。"
 
 msgid "Zone name padding"
 msgstr "區域名稱填充"
 
 msgid ""
-"Insert leading zeros into the zone name if you want to have a constant "
-"length of your zone name.<br>This setting will be ignored if you use the "
-"\"text\" zone name generator."
+"Insert leading zeros into the zone name if you want to have a constant length of "
+"your zone name.<br>This setting will be ignored if you use the \"text\" zone "
+"name generator."
 msgstr ""
-"如果要保持區域名稱的長度，請將前導零插入到區域名稱。<br>如果使用「文本」區域"
-"名稱產生器，則此設定將被忽略。"
+"如果要保持區域名稱的長度，請將前導零插入到區域名稱。<br>如果使用「文本」區域名稱"
+"產生器，則此設定將被忽略。"
 
 msgid "Zone name strict mode"
 msgstr "區域名稱嚴格模式"
 
 msgid ""
-"Zone name strict mode is enabled by default.<br>If you like to use your own "
-"zone names with the &quot;text&quot; mode you may uncheck this to have not "
-"unique zone names."
+"Zone name strict mode is enabled by default.<br>If you like to use your own zone "
+"names with the &quot;text&quot; mode you may uncheck this to have not unique "
+"zone names."
 msgstr ""
-"預設情況下啟用區域名稱嚴格模式。<br>如果您希望使用自己的區域名稱與「文本」 模"
-"式，您可以取消選中此項，不具有唯一的區域名稱。"
+"預設情況下啟用區域名稱嚴格模式。<br>如果您希望使用自己的區域名稱與「文本」 模式，"
+"您可以取消選中此項，不具有唯一的區域名稱。"
 
 msgid "Firewall device Type"
 msgstr "防火牆裝置類型"
@@ -6487,8 +6426,7 @@ msgstr "區域修改成功"
 msgid "Add a firewall zone"
 msgstr "加入防火牆區域"
 
-msgid ""
-"Zone name (Only alphanumeric and special characters like .-_ and space.)"
+msgid "Zone name (Only alphanumeric and special characters like .-_ and space.)"
 msgstr "區域名稱 (只有字母數字和特殊字元，如-_和空格。) "
 
 msgid "The zone name will be automatically generated"
@@ -6531,8 +6469,8 @@ msgid "LDAP port"
 msgstr "LDAP連接埠"
 
 msgid ""
-"Listening port for your LDAP service. TLS/unencrypted Default: 389 <br /> "
-"SSL Default: 636"
+"Listening port for your LDAP service. TLS/unencrypted Default: 389 <br /> SSL "
+"Default: 636"
 msgstr "您的LDAP服務的監聽連接埠。TLS/未加密的預設：389 <br /> SSL預設636"
 
 msgid "Bind user"
@@ -6565,7 +6503,7 @@ msgstr "填入"
 
 # ## 1.19.040
 msgid "Propagate changes"
-msgstr "傳播變化"
+msgstr "傳遞變化"
 
 msgid "Apply changes to underlying subnets"
 msgstr "對基礎子網路應用變更"
@@ -6774,7 +6712,7 @@ msgid "All tools"
 msgstr "所有工具"
 
 msgid "PSTN prefixes"
-msgstr "PSTN首碼"
+msgstr "PSTN 首碼"
 
 msgid "Add prefix"
 msgstr "加入首碼"
@@ -6786,19 +6724,19 @@ msgid "Add new object"
 msgstr "加入新物件"
 
 msgid "Destination objects"
-msgstr "目標物件"
+msgstr "目的物件"
 
 msgid "Src Port"
 msgstr "來源連接埠"
 
 msgid "Source Port"
-msgstr "Src Port"
+msgstr "來源連接埠"
 
 msgid "Dst Port"
-msgstr "目標連接埠"
+msgstr "目的連接埠"
 
 msgid "Destination Port"
-msgstr "目標連接埠"
+msgstr "目的連接埠"
 
 msgid "Location"
 msgstr "位置"
@@ -6807,7 +6745,7 @@ msgid "Locations"
 msgstr "位置"
 
 msgid "List of all locations"
-msgstr "所有位置的清單"
+msgstr "所有位置清單"
 
 msgid "Map"
 msgstr "地圖"
@@ -6918,7 +6856,7 @@ msgid "LDAP uid naming attribute for users, e.g. \"uid\" or \"cn\""
 msgstr "使用者的LDAP uid命名屬性，例如 「uid」或「cn」"
 
 msgid "NetIQ connection settings"
-msgstr "NetIQ連接設定"
+msgstr "NetIQ連線設定"
 
 msgid "Create new:"
 msgstr "建立新的："
@@ -6936,7 +6874,7 @@ msgid "SAMLv2 authentication"
 msgstr "SAMLv2 驗證"
 
 msgid "SAML2 connection settings"
-msgstr "SAML2 連接設定"
+msgstr "SAML2 連線設定"
 
 msgid "Use advanced settings"
 msgstr "使用進階設定"
@@ -7033,8 +6971,7 @@ msgid ""
 msgstr "區域名稱長度參數無效。 有效的有效值介於1到31之間。"
 
 msgid ""
-"Invalid autogen value. Use the checkbox to set the autogen value to on or "
-"off."
+"Invalid autogen value. Use the checkbox to set the autogen value to on or off."
 msgstr "autogen值無效。 使用復選框將autogen值設定為開或關。"
 
 msgid "Invalid pattern value."
@@ -7046,8 +6983,7 @@ msgstr "請選擇至少一個項目以產生有效的名稱模式。"
 msgid "Invalid subnet name type [network]. Do not manipulate the POST values!"
 msgstr "子網路名稱類型[network]無效。 不要操縱POST值！"
 
-msgid ""
-"Invalid subnet name type [description]. Do not manipulate the POST values!"
+msgid "Invalid subnet name type [description]. Do not manipulate the POST values!"
 msgstr "子網路名稱類型[description]無效。 不要操縱POST值！"
 
 msgid "Invalid subnet name. Do not manipulate the POST values!"
@@ -7058,21 +6994,21 @@ msgstr "區域設定"
 
 msgid ""
 "Choose a maximum lenght of the zone name.<br>The default: 3, maximum: 31 "
-"characters.<br>(keep in mind that your firewall may have a limit for the "
-"length of zone names or address objects )"
+"characters.<br>(keep in mind that your firewall may have a limit for the length "
+"of zone names or address objects )"
 msgstr ""
-"選擇區域名稱的最大長度。<br>預設值：3，最大值：31個字元。<br> (請記住，防火牆"
-"可能對區域名稱或位址物件的長度有限制) "
+"選擇區域名稱的最大長度。<br>預設值：3，最大值：31個字元。<br> (請記住，防火牆可能"
+"對區域名稱或位址物件的長度有限制) "
 
 msgid ""
-"Generate zone names automaticaly with the setting &quot;decimal&quot; or "
-"&quot;hex&quot;.<br>The maximum value for a zone in hex mode would be "
-"ffffffff (4294967295 zones).<br>To use your own unique zone names you can "
-"choose the option &quot;text&quot."
+"Generate zone names automaticaly with the setting &quot;decimal&quot; or &quot;"
+"hex&quot;.<br>The maximum value for a zone in hex mode would be ffffffff "
+"(4294967295 zones).<br>To use your own unique zone names you can choose the "
+"option &quot;text&quot."
 msgstr ""
-"使用設定「十進制」自動產生區域名稱 或「十六進制」。<br>十六進制模式中區域的最"
-"大值將為ffffffff (4294967295區域) 。<br>要使用您自己的唯一區域名稱，您可以選"
-"擇「文本」選項。"
+"使用設定「十進制」自動產生區域名稱 或「十六進制」。<br>十六進制模式中區域的最大值"
+"將為ffffffff (4294967295區域) 。<br>要使用您自己的唯一區域名稱，您可以選擇「文"
+"本」選項。"
 
 msgid "Firewall address object settings"
 msgstr "防火牆位址設定"
@@ -7081,12 +7017,11 @@ msgid "Autogenerate address objects"
 msgstr "自動產生位址物件"
 
 msgid ""
-"Automaticaly generate firewall address objects as an additional information "
-"of an IP address.<br>(Works only for subnets which are bound to a firewall "
-"zone.)"
+"Automaticaly generate firewall address objects as an additional information of "
+"an IP address.<br>(Works only for subnets which are bound to a firewall zone.)"
 msgstr ""
-"自動產生防火牆位址物件作為IP位址的附加資訊。<br> (僅適用於綁定到防火牆區域的"
-"子網路) 。"
+"自動產生防火牆位址物件作為IP位址的附加資訊。<br> (僅適用於綁定到防火牆區域的子網"
+"路) 。"
 
 msgid "Separator"
 msgstr "分隔"
@@ -7101,12 +7036,12 @@ msgid "Subnet name"
 msgstr "子網路名稱"
 
 msgid ""
-"Firewall address objects for subnets will contain this information instead "
-"of FQDN or hostname.<br>By choosing \"description\" spaces and other "
-"characters but hiven or underline will be replaced by the separator value."
+"Firewall address objects for subnets will contain this information instead of "
+"FQDN or hostname.<br>By choosing \"description\" spaces and other characters but "
+"hiven or underline will be replaced by the separator value."
 msgstr ""
-"子網路的防火牆位址物件將包含此資訊，而不是FQDN或主機名。<br>透過選擇「描述」"
-"空格和其他字元，但是hiven或underline將被分隔符值取代。"
+"子網路的防火牆位址物件將包含此資訊，而不是FQDN或主機名。<br>透過選擇「描述」空格"
+"和其他字元，但是hiven或underline將被分隔符值取代。"
 
 msgid "Invalid subnet ID. Do not manipulate the POST values!"
 msgstr "子網路ID無效 不要操縱POST值！"
@@ -7181,7 +7116,7 @@ msgid "No groups found"
 msgstr "找不到群組"
 
 msgid " Following groups were found"
-msgstr "發現以下群組"
+msgstr " 找到以下群組"
 
 msgid "Members:"
 msgstr "成員："
@@ -7190,10 +7125,10 @@ msgid "Group $_POST[action] error"
 msgstr "群組$ _POST [action]錯誤"
 
 msgid "Group $_POST[action] success"
-msgstr "群組$ _POST [action]成功"
+msgstr "群組 $ _POST [action] 成功"
 
 msgid "Invalid Id"
-msgstr "ID無效"
+msgstr "ID 無效"
 
 msgid "All sections :"
 msgstr "所有區段："
@@ -7250,8 +7185,7 @@ msgid "Pick import colum for"
 msgstr "選擇匯入列"
 
 msgid ""
-"No fields were automatically matched. The import file needs to have a header "
-"row!"
+"No fields were automatically matched. The import file needs to have a header row!"
 msgstr "沒有欄位自動匹配。 匯入檔案需要有一個標題行！"
 
 msgid "Not all the fields were automatically matched. Please check manually."
@@ -7294,8 +7228,8 @@ msgid "Template"
 msgstr "模板"
 
 msgid ""
-"The import XLS/CSV should have the following fields and a <b>header row</b> "
-"for a succesful import:"
+"The import XLS/CSV should have the following fields and a <b>header row</b> for "
+"a succesful import:"
 msgstr "匯入XLS / CSV應具有以下欄位和<b>標題行</ b>才能成功匯入："
 
 msgid "The fields marked with * are mandatory"
@@ -7314,7 +7248,7 @@ msgid "Internal error: missing import field mapping."
 msgstr "內部錯誤：缺少匯入欄位對應。"
 
 msgid "Extra column found on line "
-msgstr "發現額外的列"
+msgstr "找到額外的行 "
 
 msgid "Root"
 msgstr "根"
@@ -7323,7 +7257,7 @@ msgid "No change, skip"
 msgstr "沒有變化，跳過"
 
 msgid "Subnets master/nested recompute data preview"
-msgstr "子網路主/從屬重新計算數據預覽"
+msgstr "子 網路主要/所屬 重新計算資料預覽"
 
 msgid "Recomputed data"
 msgstr "重新計算數據"
@@ -7353,8 +7287,8 @@ msgid "The fields marked with * are mandatory."
 msgstr "標有*的欄位是必填欄位。"
 
 msgid ""
-"The mask can be provided either as a separate field or with the subnet, "
-"sparated by \"/\""
+"The mask can be provided either as a separate field or with the subnet, sparated "
+"by \"/\""
 msgstr "遮罩可以作為單獨的欄位或子網路提供，用「/」分隔"
 
 msgid "Show PHPIPAM specific columns."
@@ -7436,8 +7370,8 @@ msgid "Select IP Addresses file and fields to import"
 msgstr "選擇要匯入的IP位址檔案和欄位"
 
 msgid ""
-"Providing a subnet is optional, the system will add the IP to the longest "
-"match if no subnet is provided."
+"Providing a subnet is optional, the system will add the IP to the longest match "
+"if no subnet is provided."
 msgstr "提供子網路是可選的，如果沒有提供子網路，系統會將IP加入到最長的匹配項。"
 
 msgid "Search for matching subnet in all VRFs (ignore provided VRF)."
@@ -7516,7 +7450,7 @@ msgid "Show only supernets in list of subnets in section"
 msgstr "只在區段內顯示大網路清單"
 
 msgid "Permission changes will be propagated to all nested subnets"
-msgstr "權限變更將傳播到所有從屬子網路"
+msgstr "權限變更將傳遞到所有從屬子網路"
 
 msgid "Invalid object Id"
 msgstr "無效的物件ID"
@@ -7537,43 +7471,43 @@ msgid "Source"
 msgstr "來源"
 
 msgid "Destination"
-msgstr "目標"
+msgstr "目的"
 
 msgid "Invalid NAT object identifier"
-msgstr "無效的NAT物件識別符"
+msgstr "無效的 NAT 物件識別符號"
 
 msgid "Name must have at least 3 characters"
 msgstr "名稱必須至少有3個字元"
 
 msgid "Invalid NAT type"
-msgstr "無效的NAT類型"
+msgstr "無效的 NAT 類型"
 
 msgid "NAT add failed"
-msgstr "NAT加入失敗"
+msgstr "NAT 加入失敗"
 
 msgid "NAT edit failed"
-msgstr "NAT編輯失敗"
+msgstr "NAT 編輯失敗"
 
 msgid "NAT delete failed"
-msgstr "NAT刪除失敗"
+msgstr "NAT 刪除失敗"
 
 msgid "NAT add successful"
-msgstr "NAT加入成功"
+msgstr "NAT 加入成功"
 
 msgid "NAT edit successful"
-msgstr "NAT編輯成功"
+msgstr "NAT 編輯成功"
 
 msgid "NAT delete successful"
-msgstr "NAT刪除成功"
+msgstr "NAT 刪除成功"
 
 msgid "NAT"
 msgstr "NAT"
 
 msgid "Select NAT name"
-msgstr "選擇NAT名稱"
+msgstr "選擇 NAT 名稱"
 
 msgid "Select NAT type"
-msgstr "選擇NAT類型"
+msgstr "選擇 NAT 類型"
 
 msgid "Select Device"
 msgstr "選擇裝置"
@@ -7582,10 +7516,10 @@ msgid "Source port"
 msgstr "來源連接埠"
 
 msgid "Destination port"
-msgstr "目標連接埠"
+msgstr "目的連接埠"
 
 msgid "Please enter IP address"
-msgstr "請輸入IP位址"
+msgstr "請輸入 IP 位址"
 
 msgid "Invalid NAT item ID"
 msgstr "無效的NAT ID"
@@ -7597,7 +7531,7 @@ msgid "No results found"
 msgstr "未找到結果"
 
 msgid "Static NAT can only contain IP address"
-msgstr "靜態NAT只能包含IP位址"
+msgstr "靜態 NAT 只能包含 IP 位址"
 
 msgid "Static NAT can only have 1 source address"
 msgstr "靜態NAT只能有1個源位址"
@@ -7668,8 +7602,7 @@ msgstr "啟用或停用 PSTN 模組管理電話號碼"
 msgid "Link addresses"
 msgstr "連結位址"
 
-msgid ""
-"Display linked addresses from another subnet if it matches selected field"
+msgid "Display linked addresses from another subnet if it matches selected field"
 msgstr "如果與所選欄位匹配，則顯示來自其他子網路的連結位址"
 
 msgid "Syslog"
@@ -7748,10 +7681,10 @@ msgid "Enter subnet in CIDR format"
 msgstr "以CIDR格式輸入子網路"
 
 msgid "Mark as full"
-msgstr "標記為滿"
+msgstr "標記為已用滿"
 
 msgid "Mark subnet as utilized"
-msgstr "標記子網路被使用"
+msgstr "標記子網路已被使用完畢"
 
 msgid "Set subnet alert threshold"
 msgstr "設定子網路警報臨界值"
@@ -7857,13 +7790,13 @@ msgid "No VLANS found"
 msgstr "沒有找到VLAN"
 
 msgid "Add discovered VLANS"
-msgstr "加入發現的VLAN"
+msgstr "加入已探索的 VLAN"
 
 msgid "Select devices"
 msgstr "選擇裝置"
 
 msgid "Select devices to query VLAN table from"
-msgstr "選擇裝置查詢VLAN表"
+msgstr "選擇裝置查詢 VLAN 表"
 
 msgid "Scan"
 msgstr "掃描"
@@ -7887,10 +7820,10 @@ msgid "No vrfs found"
 msgstr "找不到vrfs"
 
 msgid "Add discovered vrfs"
-msgstr "加入發現的vrfs"
+msgstr "加入已探索的 vrfs"
 
 msgid "Select devices to query VRF table from"
-msgstr "選擇裝置查詢VRF表"
+msgstr "選擇裝置查詢 VRF 表"
 
 msgid "Widget $_POST[action] error"
 msgstr "小工具 $ _POST [action] 錯誤"
@@ -7983,10 +7916,10 @@ msgid "Current usage"
 msgstr "目前用量"
 
 msgid "Folder is empty"
-msgstr "資料夾為空"
+msgstr "資料夾是空的"
 
 msgid "Only master subnets are shown"
-msgstr "只顯示主子網路"
+msgstr "只顯示主要子網路"
 
 msgid "Switched to"
 msgstr "切換到"
@@ -8043,13 +7976,13 @@ msgid "Address NAT translations"
 msgstr "位址轉換"
 
 msgid "Map to existing NAT"
-msgstr "對應到現有的NAT"
+msgstr "對應到現有的 NAT"
 
 msgid "No NAT objects available"
-msgstr "沒有NAT物件可用"
+msgstr "沒有 NAT 物件可用"
 
 msgid "No NAT translations for this address"
-msgstr "沒有這個位址的NAT轉換"
+msgstr "沒有這個位址的 NAT 轉換"
 
 msgid "Address permissions"
 msgstr "位址權限"
@@ -8159,8 +8092,7 @@ msgstr "子網路必須為MAC位址查詢分配VLAN"
 msgid "No devices for SNMP MAC address query available"
 msgstr "沒有用於SNMP MAC位址查詢的裝置"
 
-msgid ""
-"No new hosts found from ARP scan, MAC address scan will not be performed"
+msgid "No new hosts found from ARP scan, MAC address scan will not be performed"
 msgstr "從ARP掃描中找不到新的主機，MAC位址掃描將不會被執行"
 
 msgid "No MAC address found via MAC address scan"
@@ -8218,21 +8150,21 @@ msgid "Last scan"
 msgstr "上次掃描"
 
 msgid "Manage linked IPv6 subnet"
-msgstr "管理連結的IPv6子網路"
+msgstr "管理連結的 IPv6 子網路"
 
 msgid "Map subnet to firewall zone"
 msgstr "將子網路對應到防火牆區域"
 
 msgid ""
-"Generate or regenerate firewall address objects for all ip addresses within "
-"this subnet."
-msgstr "為此子網路中的所有IP位址產生或重新產生防火牆位址物件。"
+"Generate or regenerate firewall address objects for all ip addresses within this "
+"subnet."
+msgstr "為此子網路中的所有 IP 位址產生或重新產生防火牆位址物件。"
 
 msgid "Subnet NAT translations"
-msgstr "子網路NAT轉換"
+msgstr "子網路 NAT 轉換"
 
 msgid "No NAT translations for this subnet"
-msgstr "沒有這個子網路的NAT轉換"
+msgstr "沒有這個子網路的 NAT 轉換"
 
 msgid "Temporary share"
 msgstr "臨時共用"
@@ -8265,13 +8197,13 @@ msgid "Location is not set for this device"
 msgstr "該裝置未設定位置"
 
 msgid "No NAT translations for this device"
-msgstr "此裝置沒有NAT轉換"
+msgstr "此裝置沒有 NAT 轉換"
 
 msgid "Belonging PSTN prefixes"
-msgstr "屬於PSTN首碼"
+msgstr "屬於 PSTN 首碼"
 
 msgid "PSTN prefixes module disabled."
-msgstr "PSTN首碼模組已停用。"
+msgstr "PSTN 首碼模組已停用。"
 
 msgid "Prefix"
 msgstr "首碼"
@@ -8441,13 +8373,13 @@ msgid "Pools"
 msgstr "集區"
 
 msgid "IPv4 subnets"
-msgstr "IPv4子網路"
+msgstr "IPv4 子網路"
 
 msgid "No IPv4 subnets"
-msgstr "沒有IPv4子網路"
+msgstr "沒有 IPv4 子網路"
 
 msgid "IPv6 subnets"
-msgstr "IPv6子網路"
+msgstr "IPv6 子網路"
 
 msgid "No IPv6 subnets"
 msgstr "沒有IPv6子網路"
@@ -8462,7 +8394,7 @@ msgid "Coordinates"
 msgstr "坐標"
 
 msgid "objects"
-msgstr "目標"
+msgstr "物件"
 
 msgid "Location not set"
 msgstr "沒有設定位置"
@@ -8564,7 +8496,7 @@ msgid "Select device where prefix is located"
 msgstr "選擇首碼所在的裝置"
 
 msgid "You do not have permission to manage PSTN prefixes"
-msgstr "您沒有管理PSTN首碼的權限"
+msgstr "您沒有管理 PSTN 首碼的權限"
 
 msgid "Invalid PSTN object identifier"
 msgstr "無效的 PSTN 物件識別符號"
@@ -8624,9 +8556,9 @@ msgid "Set stop number"
 msgstr "設定停止號碼"
 
 msgid ""
-"Enter master prefix if you want to nest it under existing subnet, or select "
-"root to create root prefix"
-msgstr "如果要將其嵌套在現有子網路下，請輸入主首碼，或者選擇根建立根首碼"
+"Enter master prefix if you want to nest it under existing subnet, or select root "
+"to create root prefix"
+msgstr "如果要將其所屬在現有子網路下，請輸入主要首碼，或者選擇根建立根首碼"
 
 msgid "Short"
 msgstr "短"
@@ -8635,7 +8567,7 @@ msgid "No numbers"
 msgstr "沒有號碼"
 
 msgid "Unused"
-msgstr "沒有使用"
+msgstr "未使用"
 
 msgid "PSTN prefix details"
 msgstr "PSTN 首碼詳細資訊"
@@ -8704,7 +8636,7 @@ msgid "New Option"
 msgstr "新選項"
 
 msgid "Value cannot be empty"
-msgstr "不能為空值"
+msgstr "不能是空值"
 
 msgid "Options updated"
 msgstr "選項已更新"
@@ -8719,31 +8651,31 @@ msgid "Invalid generator ID"
 msgstr "產生器ID無效"
 
 msgid ""
-"Maximum zone name length reached! Consider to change your settings in order "
-"to generate larger zone names."
+"Maximum zone name length reached! Consider to change your settings in order to "
+"generate larger zone names."
 msgstr "達到最大區域名稱長度！ 考慮變更您的設定以產生更大的區域名稱。"
 
 msgid ""
-"The maximum convertable vlaue is reached. Consider to switch to decimal or "
-"text mode and change the zone name length value."
+"The maximum convertable vlaue is reached. Consider to switch to decimal or text "
+"mode and change the zone name length value."
 msgstr "達到最大輸入值。 考慮切換到十進制或文本模式並變更區域名稱長度值。"
 
 msgid "Zone Name"
 msgstr "區域名稱"
 
 msgid ""
-"This network is already bound to this or another zone.<br>The binding must "
-"be unique."
+"This network is already bound to this or another zone.<br>The binding must be "
+"unique."
 msgstr "該網路已經綁定到此或另一個區域。<br>綁定必須是唯一的。"
 
 msgid "Invalid log command"
 msgstr "無效的記錄命令"
 
 msgid "A record must be an IP address"
-msgstr "A記錄必須是IP位址"
+msgstr "A 記錄必須是 IP 位址"
 
 msgid "AAAA record must be an IP address"
-msgstr "AAAA記錄必須是IP位址"
+msgstr "AAAA 記錄必須是 IP 位址"
 
 msgid "Subnet permissions recursively set"
 msgstr "子網路權限遞歸設定"
@@ -8752,7 +8684,7 @@ msgid "Subnet $cidr overlaps with"
 msgstr "子網路 $cidr 與"
 
 msgid "New subnet cannot be same as master subnet"
-msgstr "新的子網路不能與主子網路相同"
+msgstr "新的子網路不能與主要子網路相同"
 
 msgid "Invalid Mask"
 msgstr "遮罩無效"
@@ -8764,7 +8696,7 @@ msgid "Invalid filetype"
 msgstr "檔案類型無效"
 
 msgid "System is running in maintenance mode"
-msgstr "系統正在維護模式下運行"
+msgstr "系統正在維護模式下執行"
 
 msgid "Invalid username"
 msgstr "無效的使用者名稱"
@@ -8791,13 +8723,14 @@ msgid ""
 "Location: Google Maps API key is unset. Please configure config.php "
 "$gmaps_api_key to enable."
 msgstr ""
-"位置：未設定地圖API key。請設定config.php中的$gmaps_api_key來啟用地圖功能。"
+"位置：尚未設定 Google Maps API key。請設定在 config.php 內 $gmaps_api_key 以啟用"
+"地圖功能。"
 
 msgid "Search database Addresses, subnets and VLANs"
-msgstr "在資料庫中搜尋IP位址、子網路和VLAN"
+msgstr "在資料庫中搜尋 IP 位址、子網路和 VLAN"
 
 msgid "IPv4v6 calculator for subnet calculations"
-msgstr "自動計算IPv4v6子網路"
+msgstr "自動計算 IPv4v6 子網路"
 
 msgid "Changelog for all network objects"
 msgstr "所有網路物件的變更記錄"
@@ -8806,7 +8739,7 @@ msgid "Browse phpipam log files"
 msgstr "瀏覽系統記錄檔案"
 
 msgid "Manage IP requests"
-msgstr "處理IP位址申請"
+msgstr "管理 IP 位址申請"
 
 msgid "VLANs and belonging subnets"
 msgstr "VLAN及其所屬子網路"
@@ -8917,8 +8850,8 @@ msgid "2FA disabled"
 msgstr "雙因素驗證停用"
 
 msgid ""
-"2fa is enabled, but secret is not set. User will be given new secret upon "
-"first login"
+"2fa is enabled, but secret is not set. User will be given new secret upon first "
+"login"
 msgstr "雙因素驗證已啟用，但尚未設定金鑰。使用者將在第一次登入時取得新的金鑰"
 
 msgid "Reset secret"
@@ -9027,7 +8960,7 @@ msgid "Circuit providers"
 msgstr "電路提供者"
 
 msgid "Circuit map"
-msgstr "電路"
+msgstr "電路地圖"
 
 msgid "Point A"
 msgstr "A 點"
@@ -9241,3 +9174,147 @@ msgstr "電路模組"
 
 msgid "Enable or disable Circuits module"
 msgstr "啟用或停用電路模組"
+
+msgid "List of devices"
+msgstr "裝置清單"
+
+msgid "Filter by:"
+msgstr "篩選以："
+
+msgid "Edit IP request instructions"
+msgstr "編輯 IP 申請說明"
+
+msgid "IP request instructions"
+msgstr "IP 申請說明"
+
+msgid "User instructions"
+msgstr "使用者說明"
+
+msgid "Select which fields are mandatory to be filled in when creating IP address."
+msgstr "選擇要在建立 IP 位址時的必填欄位。"
+
+msgid "Check all fields that are required:"
+msgstr "勾選所需要的欄位："
+
+msgid "Set required IP address fields"
+msgstr "設定申請 IP 位址欄位"
+
+msgid "Active IP addresses requests"
+msgstr "待處理 IP 位址申請"
+
+msgid "List of physical circuits"
+msgstr "實體電路清單"
+
+msgid "Add circuit"
+msgstr "加入電路"
+
+msgid "Rack list"
+msgstr "機架清單"
+
+msgid "Rack scheme"
+msgstr "機架配置"
+
+msgid "Back side"
+msgstr "後側"
+
+msgid "devices"
+msgstr "裝置"
+
+msgid "Show popup"
+msgstr "顯示機架預覽"
+
+msgid "Edit rack"
+msgstr "編輯機架"
+
+msgid "Delete rack"
+msgstr "刪除機架"
+
+msgid "Show Rack"
+msgstr "顯示機架"
+
+msgid "Manage rack"
+msgstr "管理機架"
+
+msgid "Orientation"
+msgstr "方向"
+
+msgid "Manage device"
+msgstr "管理裝置"
+
+msgid "Edit device"
+msgstr "編輯裝置"
+
+msgid "Delete device"
+msgstr "刪除裝置"
+
+msgid "Routing information"
+msgstr "路由資訊"
+
+msgid "Circuit ID"
+msgstr "電路 ID"
+
+msgid "List of logical circuits"
+msgstr "邏輯電路清單"
+
+msgid "Add logical circuit"
+msgstr "加入邏輯電路"
+
+msgid "List of Circuit providers"
+msgstr "電路提供者清單"
+
+msgid "Add provider"
+msgstr "加入提供者"
+
+msgid "Map of all circuits"
+msgstr "所有電路地圖"
+
+msgid "Here you can manage options for circuit types:"
+msgstr "您可以在此管理電路類型選項："
+
+msgid "Custom Circuit providers fields"
+msgstr "自訂電路提供者欄位"
+
+msgid "Custom Circuits fields"
+msgstr "自訂電路欄位"
+
+msgid "Custom Logical circuits fields"
+msgstr "自訂邏輯電路欄位"
+
+msgid "Assign subnet to customer"
+msgstr "指派子網路給客戶"
+
+msgid "Resolve hostnames in this subnet"
+msgstr "在此子網路反解主機名稱"
+
+msgid "Write"
+msgstr "寫"
+
+msgid "Add new nat"
+msgstr "新增 NAT"
+
+msgid "Device NAT translations"
+msgstr "裝置 NAT 轉換"
+
+msgid "Belonging Circuits"
+msgstr "所屬電路"
+
+msgid "No circuits"
+msgstr "沒有電路"
+
+msgid "No destination NAT configured"
+msgstr "沒有目的 NAT 設定"
+
+msgid "No static NAT configured"
+msgstr "沒有靜態 NAT 設定"
+
+msgid "Customer objects"
+msgstr "客戶物件"
+
+msgid "All subnets belonging to customer."
+msgstr "所屬於此客戶的子網路"
+
+msgid "Customer details"
+msgstr "客戶細節"
+
+msgid "No objects"
+msgstr "沒有物件"
