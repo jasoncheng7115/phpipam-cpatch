@@ -7086,7 +7086,7 @@ msgid ""
 "of an IP address.<br>(Works only for subnets which are bound to a firewall "
 "zone.)"
 msgstr ""
-"自動產生防火牆位址物件作為IP位址的附加資訊。<br> (僅適用於綁定到防火牆區域的"
+"自動產生防火牆位址物件作為 IP 位址的附加資訊。<br> (僅適用於綁定到防火牆區域的"
 "子網路) 。"
 
 msgid "Separator"
@@ -9584,3 +9584,9 @@ msgstr "刪除 VLAN"
 
 msgid "Source objects"
 msgstr "來源物件"
+
+msgid "Request details"
+msgstr "申請細節"
+
+msgid "Additional information"
+msgstr "附加資訊"
