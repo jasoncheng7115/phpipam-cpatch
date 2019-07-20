@@ -10,13 +10,14 @@
 ## 使用說明
 待撰寫於 blog.jason.tools 文章。
   
-  
+&nbsp;&nbsp;
+&nbsp;&nbsp;  
     
     
 ## 畫面範例
 
 
-#### 繁中文文介面  
+#### 繁體中文介面  
   
   
 ![image](https://raw.githubusercontent.com/jasoncheng7115/phpipam-cpatch/master/images/%E8%B3%87%E8%A8%8A%E7%9C%8B%E6%9D%BF.png)  
