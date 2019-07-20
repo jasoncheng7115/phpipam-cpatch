@@ -4871,7 +4871,7 @@ msgid "No results"
 msgstr "沒有結果"
 
 msgid "Search term"
-msgstr "檢索項"
+msgstr "檢索字詞"
 
 msgid "IP addresses"
 msgstr "IP位址"
@@ -4907,7 +4907,7 @@ msgid "Passwords do not match"
 msgstr "密碼不一致"
 
 msgid "Temporary sharing disabled"
-msgstr "臨時共用被停用"
+msgstr "臨時共用已停用"
 
 msgid "Invalid type"
 msgstr "無效類型"
