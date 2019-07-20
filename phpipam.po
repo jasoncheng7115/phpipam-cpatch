@@ -3449,7 +3449,7 @@ msgstr "申請人"
 
 #: site/login/requestIPresult.php:32
 msgid "Request submitted successfully"
-msgstr "申請提交成功"
+msgstr "申請已成功送出"
 
 #: site/login/requestIPresult.php:39
 msgid "Error submitting new IP address request"
