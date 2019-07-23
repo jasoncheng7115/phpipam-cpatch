@@ -8,7 +8,7 @@
 &nbsp;&nbsp;
 
 ## 使用說明
-已撰寫於 http://blog.jason.tools/2019/07/phpipam-cpatch-install.html，請參閱。
+已撰寫於 http://blog.jason.tools/2019/07/phpipam-cpatch-install.html ，請參閱。
   
 &nbsp;&nbsp;
 &nbsp;&nbsp;  
