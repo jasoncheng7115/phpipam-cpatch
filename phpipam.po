@@ -5241,10 +5241,10 @@ msgid "Domain add successfull"
 msgstr "加入網域成功"
 
 msgid "Domain edit successfull"
-msgstr "網域編輯失敗"
+msgstr "網域編輯成功"
 
 msgid "Domain delete successfull"
-msgstr "網域刪除失敗"
+msgstr "網域刪除成功"
 
 msgid "domain"
 msgstr "網域"
@@ -5325,7 +5325,7 @@ msgid "PowerDNS management"
 msgstr "PowerDNS 管理"
 
 msgid "Please enable powerDNS module under server management"
-msgstr "請在服務管理裡啟用 PowerDNS"
+msgstr "請在伺服器的管理啟用 PowerDNS"
 
 msgid "Invalid name"
 msgstr "無效名稱"
@@ -5360,7 +5360,7 @@ msgstr "重新整理 PTR 區域"
 msgid ""
 "Clicking on regenerate will remove all PTR records for subnet and recreate "
 "new."
-msgstr "按下重新產生將刪除子網路的所有PTR記錄並重新建立新的。"
+msgstr "按下重新產生將刪除子網路的所有 PTR 記錄並重新建立新的。"
 
 msgid "Database settings"
 msgstr "資料庫設定"
